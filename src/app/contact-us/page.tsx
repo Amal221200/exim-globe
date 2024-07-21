@@ -93,9 +93,9 @@ const ContactUsPage = () => {
       </section>
       <div className="social-links">
         {
-          socialLinks.map(({ Icon, url }, key) => (
-            <a href={url} target="_blank" key={key}>
-              <Icon />
+          socialLinks.map(({ Icon, url, color }, key) => (
+            <a href={url} target="_blank" key={key} style={{ background: color }}>
+              <Icon size={20} />
             </a>
           ))
         }

@@ -1,4 +1,6 @@
-import { FacebookIcon, ImagesIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react"
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterestP } from "react-icons/fa"
+import { LuTwitter } from "react-icons/lu"
+import { PiYoutubeLogo } from "react-icons/pi"
 
 export const navLinks = [
     {
@@ -29,27 +31,33 @@ export const navLinks = [
 
   export const socialLinks = [
     {
-      Icon: FacebookIcon,
+      Icon: FaFacebookF,
       url: "#",
+      color: "#3b5998",
     },
     {
-      Icon: InstagramIcon,
+      Icon: FaInstagram,
       url: "#",
+      color: "#262626",
     },
     {
-      Icon: TwitterIcon,
+      Icon: LuTwitter,
       url: "#",
+      color: "#0077b5",
     },
     {
-      Icon: LinkedinIcon,
+      Icon: FaLinkedinIn,
       url: "#",
+      color: "#1da1f2",
     },
     {
-      Icon: YoutubeIcon,
+      Icon: PiYoutubeLogo,
       url: "#",
+      color: "#cd201f",
     },
     {
-      Icon: ImagesIcon,
+      Icon: FaPinterestP,
       url: "#",
+      color: "#bd081c",
     },
   ]

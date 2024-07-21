@@ -1,4 +1,4 @@
-import { FacebookIcon, ImagesIcon, InstagramIcon, LinkedinIcon, MailIcon, MapPinIcon, PhoneIcon, TwitterIcon, YoutubeIcon } from "lucide-react"
+import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react"
 import "./styles.scss"
 import { socialLinks } from "@/lib/constants"
 
@@ -42,9 +42,9 @@ const ContactForm = () => {
                         <h4>Follow Us</h4>
                         <div className="social-links">
                             {
-                                socialLinks.map(({ Icon, url }, key) => (
-                                    <a href={url} target="_blank" key={key}>
-                                        <Icon />
+                                socialLinks.map(({ Icon, url, color }, key) => (
+                                    <a href={url} target="_blank" key={key} style={{ background: color }}>
+                                        <Icon size={20} />
                                     </a>
                                 ))
                             }

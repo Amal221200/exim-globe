@@ -1,4 +1,3 @@
-import { FacebookIcon, ImagesIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react";
 import "./styles.scss";
 import Link from "next/link";
 import { socialLinks } from "@/lib/constants";
@@ -65,7 +64,7 @@ const Footer = () => {
           {
             socialLinks.map(({ Icon, url }, key) => (
               <a href={url} target="_blank" key={key}>
-                <Icon />
+                <Icon size={18} />
               </a>
             ))
           }
