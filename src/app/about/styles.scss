@@ -77,7 +77,7 @@
 #achievements .container .box {
     flex: 1 1 250px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 1rem;
 }
 
@@ -99,4 +99,13 @@
 
 #achievements .container .box p {
     font-size: 1.6rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    #about-section {
+        .container {
+            flex-direction: column;
+        }
+    }
 }

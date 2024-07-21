@@ -14,7 +14,7 @@ main#home .content {
   padding: 3rem;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   gap: 3rem;
   color: white;
@@ -84,7 +84,7 @@ main#home .content .btns {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: start;
+  text-align: flex-start;
 }
 
 #home-achievements .container .right .box h2 {
@@ -161,7 +161,7 @@ main#home .content .btns {
 
   #home-achievements .container .right .box {
       padding: .8rem;
-      justify-content: start;
+      justify-content: flex-start;
   }
 
   #home-achievements .container .right .box br {

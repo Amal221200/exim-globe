@@ -12,6 +12,9 @@ const Header = () => {
   const toggleOpen = () => {
     setOpen(current => !current)
   }
+  const onClose = () => {
+    setOpen(false)
+  }
   
   return (
     <header>
@@ -27,7 +30,7 @@ const Header = () => {
         <nav id="desktop-nav">
           {
             navLinks.map(link => (
-              <Link key={link.link} className={`nav-link ${link.link === pathname ? 'active' : ""}`} href={link.link}>
+              <Link key={link.link} onClick={onClose} className={`nav-link ${link.link === pathname ? 'active' : ""}`} href={link.link}>
                 <span>{link.label}</span>
               </Link>
             ))
@@ -50,7 +53,7 @@ const Header = () => {
         <ul id={`mobile-nav`}>
           {
             navLinks.map(link => (
-              <li key={link.link} className={`nav-link ${link.link === pathname ? 'active' : ""}`}>
+              <li key={link.link} onClick={onClose} className={`nav-link ${link.link === pathname ? 'active' : ""}`}>
                 <Link href={link.link}>{link.label}</Link>
               </li>
             ))
