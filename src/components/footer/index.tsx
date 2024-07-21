@@ -1,5 +1,7 @@
 import { FacebookIcon, ImagesIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react";
 import "./styles.scss";
+import Link from "next/link";
+import { socialLinks } from "@/lib/constants";
 
 
 const Footer = () => {
@@ -22,11 +24,11 @@ const Footer = () => {
           <div className="footer-content">
             <h6>Our Services</h6>
             <nav>
-              <a href="">Home</a>
-              <a href="">Products</a>
-              <a href="">Sourcing Agent</a>
-              <a href="">Contact Us</a>
-              <a href="">Marketing</a>
+              <Link href="/">Home</Link>
+              <Link href="/products">Products</Link>
+              <Link href="/sourcing-agent">Sourcing Agent</Link>
+              <Link href="/contact-us">Contact Us</Link>
+              <Link href="/marketing">Marketing</Link>
             </nav>
           </div>
         </div>
@@ -40,8 +42,8 @@ const Footer = () => {
             </p>
 
             <div>
-              <a href="">+91-98 544 32222</a> <br />
-              <a href="">contact@eximelite.com</a>
+              <a href="" target="_blank">+91-98 544 32222</a> <br />
+              <a href="" target="_blank">contact@eximelite.com</a>
             </div>
           </div>
           <div className="footer-content">
@@ -59,13 +61,14 @@ const Footer = () => {
       <div id="footer-bottom" className="footer-section">
         <p>Copyright © 2024 EXIM Global Pune</p>
 
-        <div className="social-links">
-          <a href="#"><FacebookIcon /></a>
-          <a href="#"><InstagramIcon /></a>
-          <a href="#"><TwitterIcon /></a>
-          <a href="#"><LinkedinIcon /></a>
-          <a href="#"><YoutubeIcon /></a>
-          <a href="#"><ImagesIcon /></a>
+        <div className="social-links-footer">
+          {
+            socialLinks.map(({ Icon, url }, key) => (
+              <a href={url} target="_blank" key={key}>
+                <Icon />
+              </a>
+            ))
+          }
         </div>
       </div>
     </footer>

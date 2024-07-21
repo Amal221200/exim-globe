@@ -1,7 +1,8 @@
 import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react"
 import "./styles.scss"
 import Why from "../../components/why"
-import Link  from "next/link"
+import Link from "next/link"
+import { socialLinks } from "@/lib/constants"
 
 const ContactUsPage = () => {
   return (
@@ -90,6 +91,15 @@ const ContactUsPage = () => {
           </div>
         </div>
       </section>
+      <div className="social-links">
+        {
+          socialLinks.map(({ Icon, url }, key) => (
+            <a href={url} target="_blank" key={key}>
+              <Icon />
+            </a>
+          ))
+        }
+      </div>
     </>
   )
 }

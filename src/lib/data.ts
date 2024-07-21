@@ -2,33 +2,39 @@ import { FingerprintIcon, HandshakeIcon, PuzzleIcon, TramFrontIcon, TruckIcon } 
 
 export const exportsData = [
     {
-        title: "Fruits and Vegetables",
-        description: "EXIM Elite exports a vibrant array of fresh and premium fruits and vegetables, sourced from diverse regions of India. Quality and freshness are our top priorities.",
-        img: "/assets/home-exports/Fruites-Veg.webp",
-        link: "/"
-    },
-    {
         title: "Spice Products",
-        description: "Explore a world of flavors with EXIM Elite's exquisite range of spices. Our spices are sourced directly from renowned producers, ensuring exceptional quality and authenticity.",
+        description: "Explore a world of flavors with EXIM Global's exquisite range of spices. Our spices are sourced directly from renowned producers, ensuring exceptional quality and authenticity.",
         img: "/assets/home-exports/Spices-Products.webp",
         link: "/"
     },
     {
-        title: "Grocery Products",
-        description: "EXIM Elite delivers a diverse range of high-quality grocery products, meeting the global demand for premium Indian food staples. Taste the excellence in every product.",
-        img: "/assets/home-exports/Grocery-Products.webp",
+        title: "Syringes",
+        description: "EXIM Global delivers a diverse range of disposable syringes, meeting the demand of medical services.",
+        img: "/assets/home-exports/syringes.webp",
         link: "/"
     },
     {
-        title: "Frozen Foods",
-        description: "Frozen Foods for Quick, Healthy, & Flavorful Meals. Delve into a world of convenience and taste with our premium range of Foods. Experience the perfect blend of freshness and ease, making mealtime a breeze. Discover the finest in Foods today!",
-        img: "/assets/home-exports/Frozen Foods.webp",
+        title: "Cotton Roll Creep Bandage",
+        description: "Exim Global offer high-quality Cotton Roll Creep Bandages designed for reliable support and comfort. Our bandages ensure optimal flexibility and durability for all your medical and therapeutic needs.",
+        img: "/assets/home-exports/Cotton-Roll-Creep-Bandages.jpg",
         link: "/"
     },
     {
-        title: "Namkeen and Frozen",
-        description: "Indulge in the savory delights offered by EXIM Elite, from traditional namkeens to premium frozen products. Our selection guarantees a delightful experience.",
-        img: "/assets/home-exports/Namkeen-Frozen.webp",
+        title: "Gauze Bandage",
+        description: "Exim Global provide high-quality gauze bandages designed for optimal wound care. Our gauze bandages ensure maximum comfort, superior absorbency, and reliable protection.",
+        img: "/assets/home-exports/Gauze-Bandage.png",
+        link: "/"
+    },
+    {
+        title: "Fresh Prawns and Shrimps",
+        description: "Exim Global offer a premium selection of fresh prawns and shrimps, sourced directly from the finest waters to ensure top quality and taste. Perfect for all your culinary needs, our seafood is delivered fresh to maintain its natural flavor and texture.",
+        img: "/assets/home-exports/Fresh-Prawns.webp",
+        link: "/"
+    },
+    {
+        title: "Fresh Lobster",
+        description: "Experience the finest seafood with our fresh lobster, sourced daily to ensure unmatched quality and taste. Savor the succulent flavors and indulge in the ultimate seafood delight.",
+        img: "/assets/home-exports/Lobster.jpeg",
         link: "/"
     },
     {
@@ -38,51 +44,27 @@ export const exportsData = [
         link: "/"
     },
     {
-        title: "Imitation Jewelry",
-        description: "EXIM Elite brings you the latest trends in imitation jewelry. Our curated collection reflects craftsmanship and style, perfect for fashion-forward individuals.",
-        img: "/assets/home-exports/Imitation-Jewelry.webp",
-        link: "/"
-    },
-    {
         title: "Furniture",
-        description: "Experience the fusion of design & functionality with EXIM Elite's furniture. Each piece is crafted to elevate your living spaces with elegance & comfort.",
+        description: "Experience the fusion of design & functionality with EXIM Global's furniture. Each piece is crafted to elevate your living spaces with elegance & comfort.",
         img: "/assets/home-exports/Furniture.webp",
         link: "/"
     },
     {
         title: "Leather Products",
-        description: "EXIM Elite offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
+        description: "EXIM Global offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
         img: "/assets/home-exports/Leather-Products.webp",
         link: "/"
     },
     {
         title: "Garment Products",
-        description: "Step into the world of fashion with EXIM Elite's garment products. Our collection reflects the latest trends and ensures quality and comfort in every piece.",
+        description: "Step into the world of fashion with EXIM Global's garment products. Our collection reflects the latest trends and ensures quality and comfort in every piece.",
         img: "/assets/home-exports/Garment-Products.webp",
         link: "/"
     },
     {
-        title: "Ceramics and Stones",
-        description: "EXIM Elite presents an exquisite range of ceramic & stone products, combining artistry and functionality. Transform your spaces with our unique & timeless pieces.",
-        img: "/assets/home-exports/Ceramic-Stone.webp",
-        link: "/"
-    },
-    {
-        title: "Packaging",
-        description: "Enhance your product presentation with EXIM Elite's packaging solutions. Our range of packaging products ensures both functionality and visual appeal.",
-        img: "/assets/home-exports/Packaging.webp",
-        link: "/"
-    },
-    {
         title: "Handicraft Products",
-        description: "EXIM Elite showcases the rich heritage of Indian craftsmanship through a stunning collection of handmade products. Each piece tells a story of skill and tradition.",
+        description: "EXIM Global showcases the rich heritage of Indian craftsmanship through a stunning collection of handmade products. Each piece tells a story of skill and tradition.",
         img: "/assets/home-exports/Handicraft-Products.webp",
-        link: "/"
-    },
-    {
-        title: "Copper Pots and Products",
-        description: "Discover the elegance of copper with EXIM Elite's exclusive range of copper products. Our collection combines craftsmanship and quality for a touch of sophistication.",
-        img: "/assets/home-exports/Copper-Pots-Products.webp",
         link: "/"
     },
 ]
@@ -109,25 +91,25 @@ export const testimonialsData = [
     {
         img: "/assets/testimonials/Ethan-Clark.webp",
         name: "Ethan Clark",
-        review: "EXIM Elite: Where excellence meets export. A leading Merchant Exporter in India.",
+        review: "EXIM Global: Where excellence meets export. A leading Merchant Exporter in India.",
         country: "Australia"
     },
     {
         img: "/assets/testimonials/Shaikh-Riyazuddin.webp",
         name: "Shaikh Riyazuddin",
-        review: "Our global trade thrived with EXIM Elite's expertise. Truly the best Merchant Exporter.",
+        review: "Our global trade thrived with EXIM Global's expertise. Truly the best Merchant Exporter.",
         country: "Dubai"
     },
     {
         img: "/assets/testimonials/Emelia-Sithole.webp",
         name: "Emelia Sithole",
-        review: "The sourcing brilliance of EXIM Elite transformed our product line. Merchant Exporter excellence!",
+        review: "The sourcing brilliance of EXIM Global transformed our product line. Merchant Exporter excellence!",
         country: "South Africa"
     },
     {
         img: "/assets/testimonials/Ankita-Shah.webp",
         name: "Ankita Shah",
-        review: "EXIM Elite, the epitome of Merchant Exporter in India. Diverse exports, unparalleled service.",
+        review: "EXIM Global, the epitome of Merchant Exporter in India. Diverse exports, unparalleled service.",
         country: "United Kingdom"
     },
 ]

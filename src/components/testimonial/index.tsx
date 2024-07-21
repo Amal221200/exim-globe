@@ -17,7 +17,7 @@ const Testimonial = ({ testimonialData }: { testimonialData: { img: string, name
                 </div>
                 <div>
                     <h3>{testimonialData.name}</h3>
-                    <p><blockquote>{testimonialData.review}</blockquote></p>
+                    <p>"{testimonialData.review}"</p>
                     <h5>{testimonialData.country}</h5>
                 </div>
             </div>

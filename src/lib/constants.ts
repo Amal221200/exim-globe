@@ -1,3 +1,5 @@
+import { FacebookIcon, ImagesIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react"
+
 export const navLinks = [
     {
       link: "/",
@@ -22,5 +24,32 @@ export const navLinks = [
     {
       link: "/contact-us",
       label: "Contact Us",
+    },
+  ]
+
+  export const socialLinks = [
+    {
+      Icon: FacebookIcon,
+      url: "#",
+    },
+    {
+      Icon: InstagramIcon,
+      url: "#",
+    },
+    {
+      Icon: TwitterIcon,
+      url: "#",
+    },
+    {
+      Icon: LinkedinIcon,
+      url: "#",
+    },
+    {
+      Icon: YoutubeIcon,
+      url: "#",
+    },
+    {
+      Icon: ImagesIcon,
+      url: "#",
     },
   ]
