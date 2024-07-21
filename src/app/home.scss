@@ -103,9 +103,8 @@ main#home .content .btns {
   gap: 2rem;
 }
 
-#about .container .right img {
-  max-width: 500px;
-  min-width: 400px;
+#about .container .right {
+  width: 400px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 10px 10px 17px -5px rgba(0,0,0,0.75);
@@ -166,5 +165,11 @@ main#home .content .btns {
 
   #home-achievements .container .right .box br {
       display: none;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  #about .container .right {
+    width: 100%;
   }
 }

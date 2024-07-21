@@ -51,8 +51,8 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <iframe className="map" loading="lazy"
-                        src="https://maps.google.com/maps?q=digital%20gravity%20technologies&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
-                        title="digital gravity technologies" aria-label="digital gravity technologies"></iframe>
+                    src="https://maps.google.com/maps?q=digital%20gravity%20technologies&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
+                    title="digital gravity technologies" aria-label="digital gravity technologies" />
                 </div>
             </div>
         </section>
