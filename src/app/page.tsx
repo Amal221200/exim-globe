@@ -1,95 +1,136 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import "./home.scss"
+import Exports from "@/components/exports"
+import Why from "@/components/why"
+import Founders from "@/components/founders"
+import Testimonials from "@/components/testimonials"
+import ContactForm from "@/components/contact-form"
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+const HomePage = () => {
+    return (
+        <>
+            <main id="home">
+                <div className="content">
+                    <h1>EXIM Elite</h1>
+                    <h2>
+                        PREMIER <br />
+                        MERCHANT <br />
+                        EXPORTER IN INDIA
+                    </h2>
+                    <p>
+                        We are the trusted Merchant Exporter in India, excels in global trade, ensuring seamless exports of
+                        diverse
+                        products. Exporting excellence is our commitment, setting us apart in the industry
+                    </p>
+                    <div className="btns">
+                        <a href="/products" className="btn btn-primary">OUR PRODUCTS</a>
+                        <a href="/contact-us" className="btn btn-secondary">CONTACT US</a>
+                    </div>
+                </div>
+            </main>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+            {/* <!-- achievements --> */}
+            <section id="home-achievements">
+                <div className="container">
+                    <div className="left">
+                        <h2>Our Export Commitment</h2>
+                        <h3>
+                            10+ Yrs Of Success as <br /> Merchant Exporter in India <br />
+                        </h3>
+                        <p>
+                            Embark on an export journey with EXIM Elite – A renowned Merchant Exporter in India, offering
+                            seamless exports, import solutions, expert sourcing, and invaluable training and consultancy.
+                        </p>
+                        <a href="" className="btn btn-dark">WORK WITH US</a>
+                    </div>
+                    <div className="right">
+                        <div className="box">
+                            <div>
+                                <h2>522+</h2>
+                                <p>Successfully Project <br />Finished.</p>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <div>
+                                <h2>10+</h2>
+                                <p>Years of experience <br />with proud</p>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <div>
+                                <h2>300+</h2>
+                                <p>Deals in 300+ export <br />quality products</p>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <div>
+                                <h2>100+</h2>
+                                <p>Colleagues & counting <br />more daily</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* <!-- member section -->
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+    <!-- about section --> */}
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+            <section id="about">
+                <div className="container">
+                    <div className="left">
+                        <h2>About EXIM Elite</h2>
+                        <p>
+                            Welcome to EXIM Elite, a distinguished brand of Digital Gravity Technologies and a premier Merchant
+                            Exporter in India. Since our establishment in 2017, we have become synonymous with excellence in
+                            international trade. As a leading player in the export-import industry, EXIM Elite proudly
+                            represents
+                            the commitment to quality and professionalism.
+                        </p>
+                        <p>
+                            Operating from Pune, Maharashtra, India, we specialize in a diverse range of products, including
+                            fruits,
+                            spices, handicrafts, and more. Our dedication to “Exporting Excellence” is reflected not only in the
+                            variety of goods we offer but also in the seamless services we provide to clients worldwide.
+                        </p>
+                        <p>
+                            Certified by prestigious organizations such as GST, APEDA, FIEO, and others, EXIM Elite ensures that
+                            every export meets the highest standards of quality and compliance. As a Merchant Exporter in India,
+                            we
+                            leverage our robust network and industry expertise to source top-tier products from various cities
+                            across the country.
+                        </p>
+                        <p>
+                            EXIM Elite, as a brand under Digital Gravity Technologies, goes beyond traditional exports. We are
+                            not
+                            just a facilitator of international trade; we are a catalyst for business growth. Our comprehensive
+                            services extend to import solutions, expert sourcing, and valuable training and consultancy,
+                            empowering
+                            businesses for success in the global market.
+                        </p>
+                        <p>
+                            Choose EXIM Elite as your trusted partner, where each export transaction is a testament to our
+                            unwavering commitment to excellence, and every interaction signifies a step toward a brighter, more
+                            connected global trade landscape.
+                        </p>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+                        <a href="/products" className="btn btn-primary">OUR PRODUCTS</a>
+                    </div>
+                    <div className="right">
+                        <img src="/assets/about-home.webp" alt="" />
+                    </div>
+                </div>
+            </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+            <Exports />
+
+            <Why fullsection />
+
+            <Founders showAbout />
+
+            <Testimonials />
+
+            <ContactForm />
+        </>
+    )
 }
+
+export default HomePage

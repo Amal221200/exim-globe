@@ -1,0 +1,24 @@
+.scroll-up {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  height: 3rem;
+  width: 3rem;
+  display: grid;
+  place-content: center;
+  border-radius: 3px;
+  color: #eee;
+  background-color: var(--primary-color);
+  transition: all 0.5s ease;
+  scale: 0;
+  z-index: 100;
+}
+
+.scroll-up.show {
+  scale: 1;
+}
+
+.scroll-up:hover {
+  color: var(--primary-color);
+  background-color: #eee;
+}

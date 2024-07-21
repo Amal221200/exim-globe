@@ -1,0 +1,43 @@
+.accordion {
+  margin-block: 1.4rem;
+
+  .accordion-trigger {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1.3rem;
+
+    &.opened .icon {
+      transform: rotate(90deg);
+    }
+
+    strong {
+      color: #333;
+    }
+
+    &.opened strong {
+      color: var(--primary-color);
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: start;
+  }
+
+  .accordion-content {
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-color: #f8f7f3;
+    padding-inline: 1.3rem;
+
+    &.hide {
+      max-height: 0;
+    }
+
+    &.show {
+      padding-block: 1.3rem;
+      max-height: max-content;
+    }
+  }
+}

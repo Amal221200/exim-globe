@@ -1,0 +1,102 @@
+#about-banner {
+    height: 40dvh;
+    display: grid;
+    place-content: center;
+    color: white;
+    background-image: url(/assets/about.webp);
+    background-color: var(--black-transparent);
+    background-blend-mode: overlay;
+}
+
+#about-banner h1 {
+    font-size: 4rem;
+}
+
+#about-section .container {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+#about-section .container> div {
+    flex: 1;
+}
+
+#about-section .container .left h2 {
+    color: var(--primary-color);
+}
+
+#about-section .container .left h3 {
+    font-size: 4rem;
+}
+
+#about-section .container .right h3 {
+    display: flex;
+    font-size: 2.5rem;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#about-section .container .right h3 .icon {
+    color: white;
+    background-color: var(--primary-color);
+    display: inline-grid;
+    place-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+}
+
+#about-section .container .left p {
+    font-size: 1.7rem;
+    margin-bottom: 1.8rem;
+}
+
+#about-section .container .right p {
+    font-size: 1.7rem;
+    margin-bottom: 1.8rem;
+    margin-left: 3rem;
+}
+
+#achievements {
+    background-image: url(/assets/achievments-bg.webp);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    padding: 6rem;
+    color: white;
+}
+
+#achievements .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#achievements .container .box {
+    flex: 1 1 250px;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+#achievements .container .box .icon {
+    color: white;
+    background-color: var(--primary-color);
+    display: inline-grid;
+    place-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+}
+
+#achievements .container .box h5 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+}
+
+#achievements .container .box p {
+    font-size: 1.6rem;
+}

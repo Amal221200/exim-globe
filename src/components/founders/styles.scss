@@ -1,0 +1,73 @@
+/* Founders */
+
+/* Founders */
+
+#founders .headings {
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+#founders .headings h2 {
+  font-size: 2.4rem;
+}
+
+#founders .headings h3 {
+  font-size: 3.6rem;
+}
+
+#founders > h2 {
+  font-size: 2.6rem;
+}
+
+#founders > h3 {
+  font-size: 3.4rem;
+}
+
+#founders .section-heading {
+  text-align: center;
+}
+
+#founders .btn {
+  display: block;
+  width: max-content;
+  margin: auto;
+}
+
+#founders .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 350px));
+  justify-content: center;
+  justify-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+
+#founders .container .box {
+  position: relative;
+}
+
+#founders .container .box .info {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+  padding: 2rem;
+  background: linear-gradient(to bottom, transparent, rgba(0 0 0 / 0.4));
+}
+
+#founders .container .box .info h3 {
+  font-size: 2.8rem;
+}
+
+#founders .container .box .info p {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 750px) {
+  #founders .container {
+    grid-template-columns: repeat(1, 250px);
+  }
+}

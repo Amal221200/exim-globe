@@ -1,0 +1,24 @@
+#products-banner {
+    height: 60dvh;
+    background-image: url(/assets/products-bg.webp);
+    background-color: var(--black-transparent);
+    background-position: right center;
+    background-blend-mode: overlay;
+    color: white;
+    padding: 5rem;
+}
+
+#products-banner .content h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+#products-banner .content p {
+    font-size: 1.6rem;
+    margin-bottom: 7rem;
+}
+
+#products-banner .content .btns {
+    display: flex;
+    gap: 2rem;
+}

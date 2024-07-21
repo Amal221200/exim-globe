@@ -1,0 +1,36 @@
+.testimonial-box {
+    background-color: var(--black-color);
+    padding: 5rem;
+    border-bottom: 8px solid var(--primary-color);
+}
+
+.testimonial-box .content {
+    text-align: center;
+    color: white;
+}
+
+.testimonial-box .content .star {
+    color: var(--primary-color);
+    margin-block: 1.5rem;
+}
+
+.testimonial-box img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.testimonial-box h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-box p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-box h5 {
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
