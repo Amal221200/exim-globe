@@ -3,6 +3,22 @@ import "./styles.scss"
 import Founders from "../../components/founders"
 import Why from "../../components/why"
 import ContactForm from "../../components/contact-form"
+import { Metadata } from "next"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+  return {
+    title: 'About Us',
+    description: 'Welcome to EXIM Global, a distinguished brand of Digital Gravity Technologies and a leader in international trade.',
+    openGraph: {
+      title: 'About Us',
+      description: 'Welcome to EXIM Global, a distinguished brand of Digital Gravity Technologies and a leader in international trade.',
+      ...defaultOpenGraph,
+      url: `${SiteURL}/about`
+    }
+  }
+}
 
 const AboutPage = () => {
   return (
@@ -16,8 +32,8 @@ const AboutPage = () => {
             <h2 className="section-heading">About Us</h2>
             <h3 className="section-heading">We Are Leading International Company In The World</h3>
             <p>
-              Welcome to EXIM Elite, a distinguished brand of Digital Gravity Technologies and a leader in
-              international trade. Established in 2017, EXIM Elite has emerged as a trusted Merchant Exporter in
+              Welcome to Exim Global, a distinguished brand of Digital Gravity Technologies and a leader in
+              international trade. Established in 2017, Exim Global has emerged as a trusted Merchant Exporter in
               India, embodying the ethos of ‘Exporting Excellence.’
             </p>
 
@@ -30,7 +46,7 @@ const AboutPage = () => {
             </p>
 
             <p>
-              Certified by prestigious organizations such as GST, APEDA, FIEO, and others, EXIM Elite ensures that
+              Certified by prestigious organizations such as GST, APEDA, FIEO, and others, Exim Global ensures that
               every export meets the highest standards of quality and compliance. As a brand under Digital Gravity
               Technologies, we leverage advanced technologies and industry expertise to deliver seamless and
               ethical
@@ -38,7 +54,7 @@ const AboutPage = () => {
             </p>
 
             <p>
-              EXIM Elite is not merely a Merchant Exporter; it’s a catalyst for business growth. Our comprehensive
+              Exim Global is not merely a Merchant Exporter; it’s a catalyst for business growth. Our comprehensive
               services extend beyond traditional exports to import solutions, expert sourcing, and valuable
               training
               and consultancy. We pride ourselves on being at the forefront of progressive and sustainable global
@@ -46,10 +62,10 @@ const AboutPage = () => {
             </p>
 
             <p>
-              Choose EXIM Elite for a partner dedicated to integrity, innovation, and client-centricity. Our
+              Choose Exim Global for a partner dedicated to integrity, innovation, and client-centricity. Our
               values
               drive us to navigate the complexities of global trade, ensuring trust, quality, and success in every
-              transaction. Experience the future of international trade with EXIM Elite – where every export tells
+              transaction. Experience the future of international trade with Exim Global – where every export tells
               a
               story of excellence.
             </p>
@@ -59,14 +75,14 @@ const AboutPage = () => {
           <div className="right">
             <h3><span className="icon"><BuildingIcon /></span> Mission</h3>
             <p>
-              Our mission at EXIM Elite is to redefine global trade by fostering excellence, innovation, and
+              Our mission at Exim Global is to redefine global trade by fostering excellence, innovation, and
               sustainability. We aim to be the catalyst for businesses, connecting the world through seamless and
               ethical international transactions.
             </p>
 
             <h3><span className="icon"><LandmarkIcon /></span> Vision</h3>
             <p>
-              At EXIM Elite, our vision is to shape a future where international trade is a harmonious blend of
+              At Exim Global, our vision is to shape a future where international trade is a harmonious blend of
               innovation, ethical practices, and global connectivity. We aspire to be the forefront of progressive
               and
               sustainable global commerce.
@@ -74,7 +90,7 @@ const AboutPage = () => {
 
             <h3><span className="icon"><HousePlusIcon /></span> Values</h3>
             <p>
-              At EXIM Elite, our values form the cornerstone of our commitment to 'Exporting Excellence.'
+              At Exim Global, our values form the cornerstone of our commitment to 'Exporting Excellence.'
               Integrity,
               innovation, and client-centricity drive us to navigate the complexities of global trade, ensuring
               trust,
@@ -84,7 +100,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      
+
       <section id="achievements" className="full-section">
         <div className="container">
           <div className="box">

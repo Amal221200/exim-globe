@@ -3,6 +3,22 @@ import Link from "next/link"
 import ContactForm from "../../components/contact-form"
 import { howWeWorkSteps, whyChooseData } from "../../lib/data"
 import Accordion from "../../components/accordion"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import { Metadata } from "next"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+  return {
+    title: 'Sourcing Agent',
+    description: 'At every step, our focus remains on efficiency, cost-effectiveness, and client satisfaction. Trust us as your sourcing partner, committed to delivering exceptional service and meeting your sourcing needs with precision.',
+    openGraph: {
+      title: 'Sourcing Agent',
+      description: 'At every step, our focus remains on efficiency, cost-effectiveness, and client satisfaction. Trust us as your sourcing partner, committed to delivering exceptional service and meeting your sourcing needs with precision.',
+      ...defaultOpenGraph,
+      url: `${SiteURL}/sourcing-agent`
+    }
+  }
+}
 
 const SourcingAgentPage = () => {
   return (

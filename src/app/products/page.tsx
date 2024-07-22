@@ -1,7 +1,23 @@
+import { Metadata } from "next"
 import Exports from "../../components/exports"
 import Testimonials from "../../components/testimonials"
 import Why from "../../components/why"
 import "./styles.scss"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+  return {
+    title: 'Our Products',
+    description: 'Export quality products, elevate possibilities, redefine excellence – unleashing the pinnacle of quality and innovation.',
+    openGraph: {
+      title: 'Our Products',
+      description: 'Export quality products, elevate possibilities, redefine excellence – unleashing the pinnacle of quality and innovation.',
+      ...defaultOpenGraph,
+      url: `${SiteURL}/products`
+    }
+  }
+}
 
 const ProductsPage = () => {
   return (

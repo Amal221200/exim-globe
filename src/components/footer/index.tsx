@@ -9,7 +9,7 @@ const Footer = () => {
       <div id="footer-top" className="footer-section">
         <div className="left">
           <div className="footer-content">
-            <h6>EXIM Elite</h6>
+            <h6>Exim Global</h6>
             <p>
               {`"Your Global Trade Partner. Quality exports, diverse products. Join us on the journey!"`}
             </p>
