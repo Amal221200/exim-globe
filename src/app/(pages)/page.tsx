@@ -4,13 +4,15 @@ import Why from "@/components/why"
 import Founders from "@/components/founders"
 import Testimonials from "@/components/testimonials"
 import ContactForm from "@/components/contact-form"
+import Link from "next/link"
+import Memberships from "@/components/membership"
 
 const HomePage = () => {
     return (
         <>
             <main id="home">
                 <div className="content">
-                    <h1>Exim Globe</h1>
+                    <h1>EXIM Global</h1>
                     <h2>
                         PREMIER <br />
                         MERCHANT <br />
@@ -34,31 +36,31 @@ const HomePage = () => {
                     <div className="left">
                         <h2>Our Export Commitment</h2>
                         <h3>
-                            10+ Yrs Of Success as <br /> Merchant Exporter in India <br />
+                            20+ Yrs Of Success as <br /> Merchant Exporter in India <br />
                         </h3>
                         <p>
-                            Embark on an export journey with Exim Globe – A renowned Merchant Exporter in India, offering
+                            Embark on an export journey with Exim Global – A renowned Merchant Exporter in India, offering
                             seamless exports, import solutions, expert sourcing, and invaluable training and consultancy.
                         </p>
-                        <a href="" className="btn btn-dark">WORK WITH US</a>
+                        <Link href="/contact-us" className="btn btn-dark">WORK WITH US</Link>
                     </div>
                     <div className="right">
                         <div className="box">
                             <div>
-                                <h2>522+</h2>
+                                <h2>200+</h2>
                                 <p>Successfully Project <br />Finished.</p>
                             </div>
                         </div>
                         <div className="box">
                             <div>
-                                <h2>10+</h2>
+                                <h2>20+</h2>
                                 <p>Years of experience <br />with proud</p>
                             </div>
                         </div>
                         <div className="box">
                             <div>
-                                <h2>300+</h2>
-                                <p>Deals in 300+ export <br />quality products</p>
+                                <h2>150+</h2>
+                                <p>Deals in 150+ export <br />quality products</p>
                             </div>
                         </div>
                         <div className="box">
@@ -70,52 +72,39 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            {/* <!-- member section -->
+            {/* <!-- member section --> */}
 
-    <!-- about section --> */}
+            <Memberships />
 
-            <section id="about">
+            {/* <!-- about section --> */}
+
+            <section id="about" className="white">
                 <div className="container">
                     <div className="left">
-                        <h2>About Exim Globe</h2>
+                        <h2>About Exim Global</h2>
                         <p>
-                            Welcome to Exim Globe, a distinguished brand of Digital Gravity Technologies and a premier Merchant
-                            Exporter in India. Since our establishment in 2017, we have become synonymous with excellence in
-                            international trade. As a leading player in the export-import industry, Exim Globe proudly
-                            represents
-                            the commitment to quality and professionalism.
+                            Discover excellence with EXIM Global, a Manufacturer and Merchant Exporter and an esteemed brand within Digital Gravity Technologies. Since our inception in 2022, based in Pune, Maharashtra, India, we’ve set the benchmark for international trade with our commitment to quality, integrity, and professionalism.
                         </p>
                         <p>
-                            Operating from Pune, Maharashtra, India, we specialize in a diverse range of products, including
-                            fruits,
-                            spices, handicrafts, and more. Our dedication to “Exporting Excellence” is reflected not only in the
-                            variety of goods we offer but also in the seamless services we provide to clients worldwide.
+                            At EXIM Global, we specialize in the export of a diverse range of high-quality products, including fresh fruits, aromatic spices, exquisite handicrafts, and more. Our mission, encapsulated in our motto “Exporting Excellence,” is to deliver superior products and seamless services to clients across the globe.
+
                         </p>
                         <p>
-                            Certified by prestigious organizations such as GST, APEDA, FIEO, and others, Exim Globe ensures that
-                            every export meets the highest standards of quality and compliance. As a Merchant Exporter in India,
-                            we
-                            leverage our robust network and industry expertise to source top-tier products from various cities
-                            across the country.
+                            Certified by esteemed organizations such as GST, APEDA, and FIEO, we adhere to the highest standards of quality and compliance. Our robust network and extensive industry expertise enable us to source top-tier products from various cities throughout India, ensuring that every export meets rigorous standards.
+
                         </p>
                         <p>
-                            Exim Globe, as a brand under Digital Gravity Technologies, goes beyond traditional exports. We are
-                            not
-                            just a facilitator of international trade; we are a catalyst for business growth. Our comprehensive
-                            services extend to import solutions, expert sourcing, and valuable training and consultancy,
-                            empowering
-                            businesses for success in the global market.
+                            More than just a facilitator of international trade, EXIM Global catalyzes business growth. We offer a comprehensive suite of services, including import solutions, expert sourcing, and valuable training and consultancy. Our goal is to empower businesses and drive success in the global market.
+
                         </p>
                         <p>
-                            Choose Exim Globe as your trusted partner, where each export transaction is a testament to our
-                            unwavering commitment to excellence, and every interaction signifies a step toward a brighter, more
-                            connected global trade landscape.
+                            Choose EXIM Global as your trusted partner in international trade. With every transaction, we demonstrate our dedication to excellence and our commitment to fostering a more connected and prosperous global trade landscape.
                         </p>
 
-                        <a href="/products" className="btn btn-primary">OUR PRODUCTS</a>
+                        <Link href="/products" className="btn btn-primary">OUR PRODUCTS</Link>
                     </div>
                     <div className="right">
-                        <img src="/assets/about-home.webp" alt="" />
+                        <img src="/assets/home-about-bg.png" alt="" />
                     </div>
                 </div>
             </section>

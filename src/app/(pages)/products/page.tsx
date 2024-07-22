@@ -1,9 +1,10 @@
-import { Metadata } from "next"
-import Exports from "../../components/exports"
-import Testimonials from "../../components/testimonials"
-import Why from "../../components/why"
 import "./styles.scss"
+import { Metadata } from "next"
+import Exports from "@/components/exports"
+import Testimonials from "@/components/testimonials"
+import Why from "@/components/why"
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import Memberships from "@/components/membership"
 
 export async function generateMetadata(): Promise<Metadata> {
 
@@ -24,21 +25,23 @@ const ProductsPage = () => {
     <>
       <main id="products-banner">
         <div className="content">
-            <h1>EXPORT QUALITY PRODUCTS</h1>
-            <p>Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.</p>
+          <h1>EXPORT QUALITY PRODUCTS</h1>
+          <p>Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.</p>
 
-            <div className="btns">
-                <a href="" className="btn btn-primary">KNOW MORE</a>
-                <a href="" className="btn btn-secondary">CONTACT US</a>
-            </div>
+          <div className="btns">
+            <a href="" className="btn btn-primary">KNOW MORE</a>
+            <a href="" className="btn btn-secondary">CONTACT US</a>
+          </div>
         </div>
-    </main>
+      </main>
 
-    <Exports />
+      <Memberships />
+      
+      <Exports />
 
-    <Why fullsection />
+      <Why fullsection />
 
-    <Testimonials />
+      <Testimonials />
     </>
   )
 }

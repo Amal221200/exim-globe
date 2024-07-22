@@ -1,8 +1,8 @@
 import "./styles.scss"
 import Link from "next/link"
-import ContactForm from "../../components/contact-form"
-import { howWeWorkSteps, whyChooseData } from "../../lib/data"
-import Accordion from "../../components/accordion"
+import ContactForm from "@/components/contact-form"
+import { howWeWorkSteps, whyChooseData } from "@/lib/data"
+import Accordion from "@/components/accordion"
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
 import { Metadata } from "next"
 
@@ -75,20 +75,24 @@ const SourcingAgentPage = () => {
           </div>
         </div>
       </section>
+
       <section id="why-choose">
         <h2 className="section-heading">Why Choose Our Sourcing Agent Services?</h2>
-        <ol className="why-choose-list">
-          {
-            whyChooseData.map((whyChoose, key) => (
-              <li className="why-choose-list-item" key={key}>
-                <strong>{whyChoose.label}</strong>: {whyChoose.text}
-              </li>
-            ))
-          }
-        </ol>
-        <p>
-          In a competitive global market, having a reliable and efficient Sourcing Agent is a strategic advantage. Our services are designed to empower businesses, providing them with the expertise and support needed to navigate the complexities of international sourcing successfully. Partner with us for a sourcing journey that prioritizes transparency, efficiency, and your overall satisfaction.
-        </p>
+        <div className="container">
+
+          <ol className="why-choose-list">
+            {
+              whyChooseData.map((whyChoose, key) => (
+                <li className="why-choose-list-item" key={key}>
+                  <strong>{whyChoose.label}</strong>: {whyChoose.text}
+                </li>
+              ))
+            }
+          </ol>
+          <p>
+            In a competitive global market, having a reliable and efficient Sourcing Agent is a strategic advantage. Our services are designed to empower businesses, providing them with the expertise and support needed to navigate the complexities of international sourcing successfully. Partner with us for a sourcing journey that prioritizes transparency, efficiency, and your overall satisfaction.
+          </p>
+        </div>
       </section>
 
 

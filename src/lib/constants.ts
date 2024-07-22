@@ -1,6 +1,5 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterestP } from "react-icons/fa"
-import { LuTwitter } from "react-icons/lu"
-import { PiYoutubeLogo } from "react-icons/pi"
+import {  FaFacebookSquare, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaSquareInstagram } from "react-icons/fa6"
 
 export const navLinks = [
     {
@@ -12,17 +11,13 @@ export const navLinks = [
       label: "About",
     },
     {
-      link: "/sourcing-agent",
-      label: "Sourcing Agent",
-    },
-    {
       link: "/products",
       label: "Products",
     },
-    // {
-    //   link: "/blogs",
-    //   label: "Blogs",
-    // },
+    {
+      link: "/sourcing-agent",
+      label: "Sourcing Agent",
+    },
     {
       link: "/contact-us",
       label: "Contact Us",
@@ -31,33 +26,23 @@ export const navLinks = [
 
   export const socialLinks = [
     {
-      Icon: FaFacebookF,
-      url: "#",
+      Icon: FaFacebookSquare,
+      url: "https://www.facebook.com/sales.eximglobal",
       color: "#3b5998",
     },
     {
-      Icon: FaInstagram,
-      url: "#",
+      Icon: FaSquareInstagram,
+      url: "https://x.com/EximG68512",
       color: "#262626",
     },
     {
-      Icon: LuTwitter,
-      url: "#",
+      Icon: FaTwitter,
+      url: "https://www.instagram.com/sales.eximglobal",
       color: "#0077b5",
     },
     {
-      Icon: FaLinkedinIn,
-      url: "#",
+      Icon: FaLinkedin,
+      url: "https://www.linkedin.com/company/sales-eximglobal",
       color: "#1da1f2",
-    },
-    {
-      Icon: PiYoutubeLogo,
-      url: "#",
-      color: "#cd201f",
-    },
-    {
-      Icon: FaPinterestP,
-      url: "#",
-      color: "#bd081c",
     },
   ]

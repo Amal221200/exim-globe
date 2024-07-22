@@ -2,115 +2,99 @@ import { FingerprintIcon, HandshakeIcon, PuzzleIcon, TramFrontIcon, TruckIcon } 
 
 export const exportsData = [
     {
+        title: "HDPE Drums and Barrels",
+        description: "EXIM Global offers high-quality HDPE drums and barrels, ideal for the safe storage and transportation of liquids and chemicals. Our products are durable, reliable, and designed to meet international safety standards.",
+        img: "/assets/home-exports/HDPE-Drums.png",
+        type: "industrial-products",
+        link: "/products/industral-products"
+    },
+    {
+        title: "School Furniture",
+        description: "EXIM Global provides durable and ergonomic school furniture, designed to enhance the learning environment. Our range includes desks, chairs, and storage solutions, all crafted for comfort and functionality.",
+        img: "/assets/home-exports/Furnitures.png",
+        link: "/"
+    },
+    {
+        title: "Medical Items",
+        description: "EXIM Global supplies high-quality medical equipment and supplies, ensuring reliability and safety. Our products include Hospitals furnishings and medical bandages. all meeting stringent healthcare standards.",
+        img: "/assets/home-exports/Medical Items.png",
+        link: "/"
+    },
+    {
         title: "Spice Products",
         description: "Explore a world of flavors with Exim Globe's exquisite range of spices. Our spices are sourced directly from renowned producers, ensuring exceptional quality and authenticity.",
         img: "/assets/home-exports/Spices-Products.webp",
         link: "/"
     },
     {
-        title: "Syringes",
-        description: "Exim Globe delivers a diverse range of disposable syringes, meeting the demand of medical services.",
-        img: "/assets/home-exports/syringes.webp",
-        link: "/"
-    },
-    {
-        title: "Cotton Roll Creep Bandage",
-        description: "Exim Globe offer high-quality Cotton Roll Creep Bandages designed for reliable support and comfort. Our bandages ensure optimal flexibility and durability for all your medical and therapeutic needs.",
-        img: "/assets/home-exports/Cotton-Roll-Creep-Bandages.jpg",
-        link: "/"
-    },
-    {
-        title: "Gauze Bandage",
-        description: "Exim Globe provide high-quality gauze bandages designed for optimal wound care. Our gauze bandages ensure maximum comfort, superior absorbency, and reliable protection.",
-        img: "/assets/home-exports/Gauze-Bandage.png",
-        link: "/"
-    },
-    {
-        title: "Fresh Prawns and Shrimps",
-        description: "Exim Globe offer a premium selection of fresh prawns and shrimps, sourced directly from the finest waters to ensure top quality and taste. Perfect for all your culinary needs, our seafood is delivered fresh to maintain its natural flavor and texture.",
-        img: "/assets/home-exports/Fresh-Prawns.webp",
-        link: "/"
-    },
-    {
-        title: "Fresh Lobster",
-        description: "Experience the finest seafood with our fresh lobster, sourced daily to ensure unmatched quality and taste. Savor the succulent flavors and indulge in the ultimate seafood delight.",
-        img: "/assets/home-exports/Lobster.jpeg",
-        link: "/"
-    },
-    {
-        title: "Software Marketing",
-        description: "Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!",
-        img: "/assets/home-exports/Software-Marketing.webp",
-        link: "/"
-    },
-    {
-        title: "Furniture",
-        description: "Experience the fusion of design & functionality with Exim Globe's furniture. Each piece is crafted to elevate your living spaces with elegance & comfort.",
-        img: "/assets/home-exports/Furniture.webp",
+        title: "Fishery and Seafood",
+        description: "EXIM Global provides a diverse selection of fishery and seafood products, including fresh fish, shrimp, crabs, and lobsters. Our seafood is sourced from sustainable fisheries, ensuring top quality and taste for global markets.",
+        img: "/assets/home-exports/Fishery-and-Seafood.png",
         link: "/"
     },
     {
         title: "Leather Products",
-        description: "Exim Globe offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
+        description: "Exim Global offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
         img: "/assets/home-exports/Leather-Products.webp",
         link: "/"
     },
     {
-        title: "Garment Products",
-        description: "Step into the world of fashion with Exim Globe's garment products. Our collection reflects the latest trends and ensures quality and comfort in every piece.",
+        title: "Textiles",
+        description: "EXIM Global supplies high-quality textile products, including fabrics, garments, and home textiles. Our textiles are known for their durability, vibrant colors, and intricate designs, catering to diverse fashion and home décor needs globally.",
         img: "/assets/home-exports/Garment-Products.webp",
         link: "/"
     },
     {
-        title: "Handicraft Products",
-        description: "Exim Globe showcases the rich heritage of Indian craftsmanship through a stunning collection of handmade products. Each piece tells a story of skill and tradition.",
-        img: "/assets/home-exports/Handicraft-Products.webp",
+        title: "Digital Services",
+        description: "EXIM Global provides comprehensive digital services, including web development, digital marketing, and SEO optimization. Our expert team ensures enhanced online presence and growth, tailored to meet the unique needs of businesses worldwide.",
+        img: "/assets/home-exports/Digital.png",
+        link: "/"
+    },
+    {
+        title: "Industral Safety Items",
+        description: "EXIM Global supplies a wide range of industrial safety items, including helmets, gloves, and protective clothing. Our safety products are designed to meet rigorous standards, ensuring maximum protection and safety in various industrial environments.",
+        img: "/assets/home-exports/Industrial-Safety.png",
         link: "/"
     },
 ]
 
 export const foundersData = [
     {
-        name: "Ravindra SB",
-        img: "/assets/Ravindra-SB.webp",
+        name: "Kafeel Sayyed",
+        img: "/assets/founders/Kafeel-Sayyed.jpeg",
         country: "India"
     },
     {
-        name: "Chandni RB",
-        img: "/assets/Chandni-RB.webp",
+        name: "Aaman Shaikh",
+        img: "/assets/founders/Aaman-Shaikh.png",
         country: "India"
-    },
-    {
-        name: "Shakti LB",
-        img: "/assets/Shakti-LB.webp",
-        country: "Cannada"
     },
 ]
 
 export const testimonialsData = [
     {
-        img: "/assets/testimonials/Ethan-Clark.webp",
-        name: "Ethan Clark",
-        review: "Exim Globe: Where excellence meets export. A leading Merchant Exporter in India.",
+        img: "/assets/testimonials/Maria-Rodriguez.png",
+        name: "Maria Rodriguez",
+        review: "The variety and quality of EXIM Global’s offerings are impressive. We especially appreciate their attention to detail and commitment to sustainability.",
+        country: "Japan"
+    },
+    {
+        img: "/assets/testimonials/John-Smith.png",
+        name: "John Smith",
+        review: "EXIM Global’s products have always met our expectations in terms of quality and reliability. Their customer service is exceptional, and delivery is always on time.",
         country: "Australia"
     },
     {
-        img: "/assets/testimonials/Shaikh-Riyazuddin.webp",
-        name: "Shaikh Riyazuddin",
-        review: "Our global trade thrived with Exim Globe's expertise. Truly the best Merchant Exporter.",
+        img: "/assets/testimonials/Fatima-Al-Mansouri.png",
+        name: "Fatima Al-Mansouri",
+        review: "Working with EXIM Global has been a great experience. Their industrial safety items are top-notch and have greatly improved safety standards in our factory.",
         country: "Dubai"
     },
     {
-        img: "/assets/testimonials/Emelia-Sithole.webp",
-        name: "Emelia Sithole",
-        review: "The sourcing brilliance of Exim Globe transformed our product line. Merchant Exporter excellence!",
+        img: "/assets/testimonials/Emma-Romero.png",
+        name: "Emma Romero",
+        review: "EXIM Global’s digital services have significantly boosted our online presence. Their team is professional, responsive, and delivers excellent results.",
         country: "South Africa"
-    },
-    {
-        img: "/assets/testimonials/Ankita-Shah.webp",
-        name: "Ankita Shah",
-        review: "Exim Globe, the epitome of Merchant Exporter in India. Diverse exports, unparalleled service.",
-        country: "United Kingdom"
     },
 ]
 

@@ -7,50 +7,41 @@ const Footer = () => {
   return (
     <footer>
       <div id="footer-top" className="footer-section">
-        <div className="left">
-          <div className="footer-content">
-            <h6>Exim Global</h6>
-            <p>
-              {`"Your Global Trade Partner. Quality exports, diverse products. Join us on the journey!"`}
-            </p>
+        <div className="footer-content">
+          <h6>EXIM Global</h6>
+          <p>
+            Expand your reach, and elevate your brand. We're your global xport experts.
+          </p>
 
-            <p className="small">
-              Mon - Sat 09:30 - 18:30, <br />
-              Sunday - CLOSED
-            </p>
-          </div>
-
-          <div className="footer-content">
-            <h6>Our Services</h6>
-            <nav>
-              <Link href="/">Home</Link>
-              <Link href="/products">Products</Link>
-              <Link href="/sourcing-agent">Sourcing Agent</Link>
-              <Link href="/contact-us">Contact Us</Link>
-              <Link href="/marketing">Marketing</Link>
-            </nav>
-          </div>
+          <p>
+            Mon - Sat 09:30 - 18:30, <br />
+            Sunday - CLOSED
+          </p>
         </div>
 
-        <div className="right">
-          <div className="footer-content">
-            <h6>Office in India</h6>
-            <p>
-              Ambegaon Budruk, Pune, <br />
-              Maharashtra 411046 <br />
-            </p>
+        <div className="footer-content">
+          <h6>Our Services</h6>
+          <nav>
+            <Link href="/">Home</Link>
+            <Link href="/products">Products</Link>
+            <Link href="/sourcing-agent">Sourcing Agent</Link>
+            <Link href="/contact-us">Contact Us</Link>
+            <Link href="/marketing">Marketing</Link>
+          </nav>
+        </div>
 
-            <div>
-              <a href="" target="_blank">+91-98 544 32222</a> <br />
-              <a href="" target="_blank">contact@eximelite.com</a>
-            </div>
-          </div>
-          <div className="footer-content">
-            <h6>Our Locations</h6>
-            <ul>
-              <li>India</li>
-              <li>Canada</li>
-            </ul>
+        <div className="footer-content">
+          <h6>Our Office</h6>
+          <p>
+            Sai Dham, A11, Akurdi Pradhikaran Road,<br />
+            PCNTDA, Pune – 411044, Maharashtra INDIA <br />
+          </p>
+
+          <div>
+            <a href="" target="_blank">+91 86003 16457</a> <br />
+            <a href="" target="_blank">+91 95271 06880</a> <br /> <br />
+            <a href="" target="_blank">sales@eximglobal-net.preview-domain.com</a> <br />
+            <a href="" target="_blank">marketing.eximglobal@gmail.com</a>
           </div>
         </div>
       </div>
@@ -58,13 +49,13 @@ const Footer = () => {
       <div className="hr" />
 
       <div id="footer-bottom" className="footer-section">
-        <p>Copyright © 2024 EXIM Global Pune</p>
+        <p>Copyright © 2024 EXIM Global.</p>
 
         <div className="social-links-footer">
           {
             socialLinks.map(({ Icon, url }, key) => (
               <a href={url} target="_blank" key={key}>
-                <Icon size={18} />
+                <Icon size={25} />
               </a>
             ))
           }

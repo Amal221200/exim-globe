@@ -1,11 +1,15 @@
 #products-banner {
-    height: 60dvh;
-    background-image: url(/assets/products-bg.webp);
+    height: 80dvh;
+    background-image: url(/assets/products-bg.jpg);
     background-color: var(--black-transparent);
-    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: overlay;
+    background-position-y: -340px;
     color: white;
     padding: 5rem;
+    display: flex;
+    align-items: center;
 }
 
 #products-banner .content h1 {

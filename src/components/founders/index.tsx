@@ -17,6 +17,7 @@ const Founders = ({ showAbout, headingBackground }: { showAbout?: boolean, headi
                     </>
                 )
             }
+
             <div className="container">
                 {
                     foundersData.map((founder, key) => (
@@ -30,9 +31,6 @@ const Founders = ({ showAbout, headingBackground }: { showAbout?: boolean, headi
                     ))
                 }
             </div>
-            {
-                showAbout && <a href="#about" className="btn btn-primary">ABOUT US</a>
-            }
         </section>
     )
 }

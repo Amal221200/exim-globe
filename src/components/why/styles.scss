@@ -34,11 +34,11 @@
 }
 
 #why .container .right {
-  background: url(/assets/why-right.webp);
+  background: url(/assets/home-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(28, 32, 253, 0.7);
+  background-color: var(--primary-transparent);
   background-blend-mode: overlay;
 }
 

@@ -1,3 +1,8 @@
+
+#contact-us {
+  display: block;
+}
+
 #contact-us .container {
   display: flex;
   gap: 1rem;
@@ -5,12 +10,18 @@
 
 #contact-us .container > div {
   flex: 1;
-  padding: 3rem;
+  padding: 2.5rem;
+}
+
+#contact-us .container > div h2 {
+  font-size: 4rem;
 }
 
 #contact-us .left {
   background: var(--black-color);
   color: white;
+  display: grid;
+  align-content: center;
 }
 
 #contact-us .left > p {
@@ -48,24 +59,8 @@
   font-size: 1.5rem;
 }
 
-#contact-us .social-links {
-  margin-bottom: 1rem;
-}
-
-#contact-us .social-links a {
-  width: 4rem;
-  height: 4rem;
-  display: inline-grid;
-  place-content: center;
-  margin-inline-end: 5px;
-  color: white;
-  border-radius: 5px;
-  transition: opacity 0.2s ease;
-}
-
-#contact-us .social-links a:hover {
-  opacity: 0.8;
-  animation: bounce 0.4s linear;
+#contact-us .right > div {
+  margin-block: 1.5rem;
 }
 
 #contact-us .right .map {

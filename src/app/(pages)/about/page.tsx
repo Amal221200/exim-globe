@@ -1,19 +1,20 @@
 import { AwardIcon, BuildingIcon, DollarSignIcon, HousePlusIcon, LandmarkIcon, NetworkIcon, UsersIcon } from "lucide-react"
 import "./styles.scss"
-import Founders from "../../components/founders"
-import Why from "../../components/why"
-import ContactForm from "../../components/contact-form"
+import Founders from "@/components/founders"
+import Why from "@/components/why"
+import ContactForm from "@/components/contact-form"
 import { Metadata } from "next"
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import Memberships from "@/components/membership"
 
 export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: 'About Us',
-    description: 'Welcome to Exim Globe, a distinguished brand of Digital Gravity Technologies and a leader in international trade.',
+    description: 'Welcome to EXIM Global, a distinguished brand of Digital Gravity Technologies and a leader in international trade.',
     openGraph: {
       title: 'About Us',
-      description: 'Welcome to Exim Globe, a distinguished brand of Digital Gravity Technologies and a leader in international trade.',
+      description: 'Welcome to EXIM Global, a distinguished brand of Digital Gravity Technologies and a leader in international trade.',
       ...defaultOpenGraph,
       url: `${SiteURL}/about`
     }
@@ -26,48 +27,26 @@ const AboutPage = () => {
       <main id="about-banner">
         <h1>ABOUT US</h1>
       </main>
+
+      <Memberships />
+      
       <section id="about-section">
         <div className="container">
           <div className="left">
             <h2 className="section-heading">About Us</h2>
             <h3 className="section-heading">We Are Leading International Company In The World</h3>
             <p>
-              Welcome to Exim Globe, a distinguished brand of Digital Gravity Technologies and a leader in
-              international trade. Established in 2017, Exim Globe has emerged as a trusted Merchant Exporter in
-              India, embodying the ethos of ‘Exporting Excellence.’
+              Discover excellence with EXIM Global, a leading Merchant Exporter and an esteemed brand within Digital Gravity Technologies. Since our inception in 2022, based in Pune, Maharashtra, India, we’ve set the benchmark for international trade with our commitment to quality, integrity, and professionalism.
             </p>
 
             <p>
-              Operating from Pune, Maharashtra, India, we specialize in a diverse range of products, including
-              fruits,
-              spices, handicrafts, and more. As a committed player in the export-import industry, our mission is
-              to
-              redefine global trade by fostering excellence, innovation, and sustainability.
+              At EXIM Global, we specialize in the export of a diverse range of high-quality products, including fresh fruits, aromatic spices, exquisite handicrafts, and more. Our mission, encapsulated in our motto “Exporting Excellence,” is to deliver superior products and seamless services to clients across the globe.
+              Certified by esteemed organizations such as GST, APEDA, and FIEO, we adhere to the highest standards of quality and compliance. Our robust network and extensive industry expertise enable us to source top-tier products from various cities throughout India, ensuring that every export meets rigorous standards.
             </p>
 
             <p>
-              Certified by prestigious organizations such as GST, APEDA, FIEO, and others, Exim Globe ensures that
-              every export meets the highest standards of quality and compliance. As a brand under Digital Gravity
-              Technologies, we leverage advanced technologies and industry expertise to deliver seamless and
-              ethical
-              international transactions.
-            </p>
-
-            <p>
-              Exim Globe is not merely a Merchant Exporter; it’s a catalyst for business growth. Our comprehensive
-              services extend beyond traditional exports to import solutions, expert sourcing, and valuable
-              training
-              and consultancy. We pride ourselves on being at the forefront of progressive and sustainable global
-              commerce.
-            </p>
-
-            <p>
-              Choose Exim Globe for a partner dedicated to integrity, innovation, and client-centricity. Our
-              values
-              drive us to navigate the complexities of global trade, ensuring trust, quality, and success in every
-              transaction. Experience the future of international trade with Exim Globe – where every export tells
-              a
-              story of excellence.
+              More than just a facilitator of international trade, EXIM Global catalyzes business growth. We offer a comprehensive suite of services, including import solutions, expert sourcing, and valuable training and consultancy. Our goal is to empower businesses and drive success in the global market.
+              Choose EXIM Global as your trusted partner in international trade. With every transaction, we demonstrate our dedication to excellence and our commitment to fostering a more connected and prosperous global trade landscape.
             </p>
 
             <a href="/products" className="btn btn-primary">OUR PRODUCTS</a>
@@ -75,14 +54,12 @@ const AboutPage = () => {
           <div className="right">
             <h3><span className="icon"><BuildingIcon /></span> Mission</h3>
             <p>
-              Our mission at Exim Globe is to redefine global trade by fostering excellence, innovation, and
-              sustainability. We aim to be the catalyst for businesses, connecting the world through seamless and
-              ethical international transactions.
+              Our mission at EXIM Global is to redefine global trade by fostering excellence, innovation, and sustainability. We aim to be the catalyst for businesses, connecting the world through seamless and ethical international transactions.
             </p>
 
             <h3><span className="icon"><LandmarkIcon /></span> Vision</h3>
             <p>
-              At Exim Globe, our vision is to shape a future where international trade is a harmonious blend of
+              At EXIM Global, our vision is to shape a future where international trade is a harmonious blend of
               innovation, ethical practices, and global connectivity. We aspire to be the forefront of progressive
               and
               sustainable global commerce.
@@ -90,13 +67,13 @@ const AboutPage = () => {
 
             <h3><span className="icon"><HousePlusIcon /></span> Values</h3>
             <p>
-              At Exim Globe, our values form the cornerstone of our commitment to 'Exporting Excellence.'
+              At EXIM Global, our values form the cornerstone of our commitment to 'Exporting Excellence.'
               Integrity,
               innovation, and client-centricity drive us to navigate the complexities of global trade, ensuring
               trust,
               quality, and success in every transaction.
             </p>
-            <img src="/assets/about-home.webp" alt="" />
+            <img src="/assets/home-about-bg.png" alt="" />
           </div>
         </div>
       </section>

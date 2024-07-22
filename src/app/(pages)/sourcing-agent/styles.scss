@@ -1,7 +1,7 @@
 #sourcing-agent-banner {
   height: 60dvh;
   background: url(/assets/sourcing-agent-bg.webp);
-  background-color: rgba(2, 113, 247, 0.4);
+  background-color: var(--black-transparent);
   background-blend-mode: overlay;
   color: white;
 
@@ -68,9 +68,9 @@
 }
 
 #benefit-section {
-  max-width: 1000px;
+  
   .section-heading {
-    text-align: center;
+   text-align: center;
   }
 
   > p {
@@ -80,6 +80,7 @@
   }
 
   .container {
+    max-width: 1000px;
     display: flex;
     gap: 2rem;
 
@@ -105,6 +106,12 @@
 
 #why-choose {
   padding-inline: 1.5rem;
+
+  .section-heading {
+    max-width: 1200px;
+    margin: auto;
+  }
+
   .why-choose-list {
     max-width: 1200px;
     margin: 1.5rem auto;

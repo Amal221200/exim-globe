@@ -1,15 +1,14 @@
 import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react"
 import "./styles.scss"
-import { socialLinks } from "@/lib/constants"
 
 const ContactForm = () => {
     return (
         <section id="contact-us">
             <div className="container">
                 <div className="left">
-                    <h2 className="section-heading">Request a Quote</h2>
-                    <p>Ready to Work Together? Build a project with us!</p>
                     <form action="">
+                        <h2 className="section-heading">Request a Quote</h2>
+                        <p>Ready to Work Together? Build a project with us!</p>
                         <label htmlFor="">Your Full Name</label><br />
                         <input type="text" id="" /> <br />
                         <label htmlFor="">Company Name</label><br />
@@ -28,31 +27,21 @@ const ContactForm = () => {
                     <h2 className="section-heading">Contact Info</h2>
                     <div>
                         <h4><MapPinIcon /> <span>Address</span></h4>
-                        <p>Office No. 101, Avdhut Complex, Dattanagar Rd, Ambegaon Bk, Pune 411046, Maharashtra, India.</p>
+                        <p>Sai Dham, A11, Akurdi Pradhikaran Road, PCNTDA, Pune – 411044, Maharashtra INDIA</p>
                     </div>
                     <div>
                         <h4><MailIcon /> <span>Email</span></h4>
-                        <p>contact@eximelite.com</p>
+                        <p>sales@eximglobal-net.preview-domain.com <br />
+                            marketing.eximglobal@gmail.com</p>
                     </div>
                     <div>
                         <h4><PhoneIcon /> <span>Call Us</span></h4>
-                        <p>+91- 98 544 32222</p>
-                    </div>
-                    <div>
-                        <h4>Follow Us</h4>
-                        <div className="social-links">
-                            {
-                                socialLinks.map(({ Icon, url, color }, key) => (
-                                    <a href={url} target="_blank" key={key} style={{ background: color }}>
-                                        <Icon size={20} />
-                                    </a>
-                                ))
-                            }
-                        </div>
+                        <p>+91 86003 16457 <br />
+                            +91 95271 06880</p>
                     </div>
                     <iframe className="map" loading="lazy"
-                    src="https://maps.google.com/maps?q=digital%20gravity%20technologies&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
-                    title="digital gravity technologies" aria-label="digital gravity technologies" />
+                        src="https://maps.google.com/maps?q=18.652089%2C%2073.764534&z=12&hl=en&t=m&output=embed&iwloc=near"
+                        title="digital gravity technologies" aria-label="digital gravity technologies" />
                 </div>
             </div>
         </section>

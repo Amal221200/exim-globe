@@ -5,6 +5,12 @@ footer {
 }
 
 footer a {
+  font-size: 1.8rem;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
   color: var(--primary-color);
 }
 
@@ -14,29 +20,22 @@ footer {
 
 .hr {
   height: 1.5px;
-  background: #4B4640;
+  background: #4b4640;
 }
 
 .footer-section {
   max-width: 1300px;
   margin: auto;
-  padding-inline: 1rem;
+  padding: 2rem 1rem;
 }
 
 #footer-top {
   margin-block: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
 }
 
-#footer-top .left,
-#footer-top .right {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-  gap: 1.3rem;
-}
 
 .footer-content {
   flex: 1;
@@ -46,22 +45,20 @@ footer {
 }
 
 .footer-content h6 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer-content nav {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
-.footer-content p {
-  font-size: 1.9rem;
+footer p {
+  font-size: 2rem;
   font-weight: 500;
-}
-
-.footer-content p.small {
-  font-size: 1.5rem;
+  padding-block: 1rem;
 }
 
 #footer-bottom {
@@ -72,45 +69,37 @@ footer {
   color: #eee;
 }
 
-#footer-bottom p {
-  font-size: 1.5rem;
-}
-
 footer .social-links-footer a {
   display: inline-grid;
   place-content: center;
-  margin-inline: .2rem;
-  padding: .5rem;
-  background-color: var(--primary-color);
-  border-radius: 5px;
-  color: black;
+  margin-inline: 0.5rem;
+  border-radius: 10px;
+  color: var(--primary-color-light);
 }
 
 footer .social-links-footer a:hover {
   color: #eee;
 }
 
-
 @media screen and (max-width: 800px) {
   #footer-top {
-      flex-direction: column;
-      gap: 2rem;
-      text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 552px) {
-
   #footer-top .left,
   #footer-top .right {
-      flex-direction: column;
-      gap: 2rem;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   #footer-bottom {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
 }

@@ -15,16 +15,14 @@ const Header = () => {
   const onClose = () => {
     setOpen(false)
   }
-  
+
   return (
     <header>
       <div id="header-top">
         <div id="header-logo">
           <div className="image">
-         { /* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/assets/logo.png" alt="" />
+            <img src="/assets/logo.png" alt="" />
           </div>
-          <h6><span>EXIM</span> GLOBAL</h6>
         </div>
 
         <nav id="desktop-nav">
@@ -36,9 +34,6 @@ const Header = () => {
             ))
           }
         </nav>
-        <Link href="/contact-us" className="btn btn-primary">
-          GET A QUOTE
-        </Link>
 
         <button type="button" id="nav-btn" onClick={toggleOpen}>
           {

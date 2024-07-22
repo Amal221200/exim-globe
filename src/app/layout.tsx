@@ -1,5 +1,6 @@
 import "./animations.scss";
 import "./globals.scss";
+import "swiper/css"
 import type { Metadata } from "next";
 import { Playfair_Display } from "next/font/google";
 import Header from "@/components/header";

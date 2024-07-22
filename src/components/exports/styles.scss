@@ -1,9 +1,14 @@
 /* exports */
 
-#exports .container {
+#exports {
+  .section-heading {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 380px));
   justify-content: center;
   gap: 2rem;
 }
-
+}

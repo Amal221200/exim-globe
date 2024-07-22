@@ -1,10 +1,13 @@
 #about-banner {
-  height: 40dvh;
+  height: 60dvh;
   display: grid;
   place-content: center;
   color: white;
-  background-image: url(/assets/about.webp);
+  background-image: url(/assets/about-bg.jpg);
   background-color: var(--black-transparent);
+  background-position-y: -130px;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: overlay;
 }
 
@@ -60,7 +63,7 @@
 }
 
 #achievements {
-  background-image: url(/assets/achievments-bg.webp);
+  background-image: url(/assets/about-achievements-bg.jpg);
   background-color: rgba(0, 0, 0, 0.8);
   background-blend-mode: overlay;
   padding: 6rem;

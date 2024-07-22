@@ -1,0 +1,64 @@
+#membership {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  .container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .swiper {
+    max-width: 1000px;
+    .my-swiper {
+      overflow: hidden;
+      padding: 1rem;
+      .slide {
+        border: 1px solid;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        transform: scale(1);
+        z-index: 100;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #membership {
+    .container {
+      flex-direction: column;
+    }
+
+    .swiper {
+      max-width: 650px;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  #membership {
+    .container {
+      flex-direction: column;
+    }
+
+    .swiper {
+      max-width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #membership {
+    .swiper {
+      max-width: 380px;
+    }
+  }
+}

@@ -1,7 +1,5 @@
 /* Founders */
 
-/* Founders */
-
 #founders .headings {
   padding: 2rem;
   background-color: #fff;
@@ -46,19 +44,40 @@
 
 #founders .container .box {
   position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#founders .container .box img {
+  object-fit: cover;
+  height: 100%;
+  transition: transform 0.5s ease;
 }
 
 #founders .container .box .info {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 0;
+  bottom: -100%;
   color: white;
   padding: 2rem;
   background: linear-gradient(to bottom, transparent, rgba(0 0 0 / 0.4));
+  transition: bottom 0.5s ease-out;
+  transition-delay: 0.2s;
+}
+
+#founders .container .box:hover {
+  img {
+    transform: scale(1.2);
+  }
+
+  .info {
+    bottom: 0;
+  }
 }
 
 #founders .container .box .info h3 {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2.8rem;
 }
 
