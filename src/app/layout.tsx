@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     template: `%s | ${SiteName}`,
     default: `${SiteName} | India's Finest Merchant Exporter`,
   },
-  description: "EXIM Global, a excellence Merchant Exporter in India, excels in global trade. Explore our diverse product range for seamless solutions. Your trusted partner.",
+  description: "Exim Globe, a excellence Merchant Exporter in India, excels in global trade. Explore our diverse product range for seamless solutions. Your trusted partner.",
   openGraph: {
     ...defaultOpenGraph,
     title: {
-      template: "Exim Global | %s",
+      template: "Exim Globe | %s",
       default: `${SiteName} | India's Finest Merchant Exporter`,
     },
-    description: "EXIM Global, a excellence Merchant Exporter in India, excels in global trade. Explore our diverse product range for seamless solutions. Your trusted partner.",
+    description: "Exim Globe, a excellence Merchant Exporter in India, excels in global trade. Explore our diverse product range for seamless solutions. Your trusted partner.",
   },
 };
 

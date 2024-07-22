@@ -10,7 +10,7 @@ const HomePage = () => {
         <>
             <main id="home">
                 <div className="content">
-                    <h1>Exim Global</h1>
+                    <h1>Exim Globe</h1>
                     <h2>
                         PREMIER <br />
                         MERCHANT <br />
@@ -37,7 +37,7 @@ const HomePage = () => {
                             10+ Yrs Of Success as <br /> Merchant Exporter in India <br />
                         </h3>
                         <p>
-                            Embark on an export journey with Exim Global – A renowned Merchant Exporter in India, offering
+                            Embark on an export journey with Exim Globe – A renowned Merchant Exporter in India, offering
                             seamless exports, import solutions, expert sourcing, and invaluable training and consultancy.
                         </p>
                         <a href="" className="btn btn-dark">WORK WITH US</a>
@@ -77,11 +77,11 @@ const HomePage = () => {
             <section id="about">
                 <div className="container">
                     <div className="left">
-                        <h2>About Exim Global</h2>
+                        <h2>About Exim Globe</h2>
                         <p>
-                            Welcome to Exim Global, a distinguished brand of Digital Gravity Technologies and a premier Merchant
+                            Welcome to Exim Globe, a distinguished brand of Digital Gravity Technologies and a premier Merchant
                             Exporter in India. Since our establishment in 2017, we have become synonymous with excellence in
-                            international trade. As a leading player in the export-import industry, Exim Global proudly
+                            international trade. As a leading player in the export-import industry, Exim Globe proudly
                             represents
                             the commitment to quality and professionalism.
                         </p>
@@ -92,14 +92,14 @@ const HomePage = () => {
                             variety of goods we offer but also in the seamless services we provide to clients worldwide.
                         </p>
                         <p>
-                            Certified by prestigious organizations such as GST, APEDA, FIEO, and others, Exim Global ensures that
+                            Certified by prestigious organizations such as GST, APEDA, FIEO, and others, Exim Globe ensures that
                             every export meets the highest standards of quality and compliance. As a Merchant Exporter in India,
                             we
                             leverage our robust network and industry expertise to source top-tier products from various cities
                             across the country.
                         </p>
                         <p>
-                            Exim Global, as a brand under Digital Gravity Technologies, goes beyond traditional exports. We are
+                            Exim Globe, as a brand under Digital Gravity Technologies, goes beyond traditional exports. We are
                             not
                             just a facilitator of international trade; we are a catalyst for business growth. Our comprehensive
                             services extend to import solutions, expert sourcing, and valuable training and consultancy,
@@ -107,7 +107,7 @@ const HomePage = () => {
                             businesses for success in the global market.
                         </p>
                         <p>
-                            Choose Exim Global as your trusted partner, where each export transaction is a testament to our
+                            Choose Exim Globe as your trusted partner, where each export transaction is a testament to our
                             unwavering commitment to excellence, and every interaction signifies a step toward a brighter, more
                             connected global trade landscape.
                         </p>

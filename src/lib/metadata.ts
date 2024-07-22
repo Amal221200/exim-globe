@@ -1,5 +1,5 @@
-export const SiteName = 'Exim Global'
-export const SiteURL = 'https://exim-global.vercel.app'
+export const SiteName = 'Exim Globe'
+export const SiteURL = 'https://exim-globe.vercel.app'
 
 export const defaultOpenGraph = {
     type: 'website',

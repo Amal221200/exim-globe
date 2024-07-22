@@ -3,31 +3,31 @@ import { FingerprintIcon, HandshakeIcon, PuzzleIcon, TramFrontIcon, TruckIcon } 
 export const exportsData = [
     {
         title: "Spice Products",
-        description: "Explore a world of flavors with EXIM Global's exquisite range of spices. Our spices are sourced directly from renowned producers, ensuring exceptional quality and authenticity.",
+        description: "Explore a world of flavors with Exim Globe's exquisite range of spices. Our spices are sourced directly from renowned producers, ensuring exceptional quality and authenticity.",
         img: "/assets/home-exports/Spices-Products.webp",
         link: "/"
     },
     {
         title: "Syringes",
-        description: "EXIM Global delivers a diverse range of disposable syringes, meeting the demand of medical services.",
+        description: "Exim Globe delivers a diverse range of disposable syringes, meeting the demand of medical services.",
         img: "/assets/home-exports/syringes.webp",
         link: "/"
     },
     {
         title: "Cotton Roll Creep Bandage",
-        description: "Exim Global offer high-quality Cotton Roll Creep Bandages designed for reliable support and comfort. Our bandages ensure optimal flexibility and durability for all your medical and therapeutic needs.",
+        description: "Exim Globe offer high-quality Cotton Roll Creep Bandages designed for reliable support and comfort. Our bandages ensure optimal flexibility and durability for all your medical and therapeutic needs.",
         img: "/assets/home-exports/Cotton-Roll-Creep-Bandages.jpg",
         link: "/"
     },
     {
         title: "Gauze Bandage",
-        description: "Exim Global provide high-quality gauze bandages designed for optimal wound care. Our gauze bandages ensure maximum comfort, superior absorbency, and reliable protection.",
+        description: "Exim Globe provide high-quality gauze bandages designed for optimal wound care. Our gauze bandages ensure maximum comfort, superior absorbency, and reliable protection.",
         img: "/assets/home-exports/Gauze-Bandage.png",
         link: "/"
     },
     {
         title: "Fresh Prawns and Shrimps",
-        description: "Exim Global offer a premium selection of fresh prawns and shrimps, sourced directly from the finest waters to ensure top quality and taste. Perfect for all your culinary needs, our seafood is delivered fresh to maintain its natural flavor and texture.",
+        description: "Exim Globe offer a premium selection of fresh prawns and shrimps, sourced directly from the finest waters to ensure top quality and taste. Perfect for all your culinary needs, our seafood is delivered fresh to maintain its natural flavor and texture.",
         img: "/assets/home-exports/Fresh-Prawns.webp",
         link: "/"
     },
@@ -45,25 +45,25 @@ export const exportsData = [
     },
     {
         title: "Furniture",
-        description: "Experience the fusion of design & functionality with EXIM Global's furniture. Each piece is crafted to elevate your living spaces with elegance & comfort.",
+        description: "Experience the fusion of design & functionality with Exim Globe's furniture. Each piece is crafted to elevate your living spaces with elegance & comfort.",
         img: "/assets/home-exports/Furniture.webp",
         link: "/"
     },
     {
         title: "Leather Products",
-        description: "EXIM Global offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
+        description: "Exim Globe offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
         img: "/assets/home-exports/Leather-Products.webp",
         link: "/"
     },
     {
         title: "Garment Products",
-        description: "Step into the world of fashion with EXIM Global's garment products. Our collection reflects the latest trends and ensures quality and comfort in every piece.",
+        description: "Step into the world of fashion with Exim Globe's garment products. Our collection reflects the latest trends and ensures quality and comfort in every piece.",
         img: "/assets/home-exports/Garment-Products.webp",
         link: "/"
     },
     {
         title: "Handicraft Products",
-        description: "EXIM Global showcases the rich heritage of Indian craftsmanship through a stunning collection of handmade products. Each piece tells a story of skill and tradition.",
+        description: "Exim Globe showcases the rich heritage of Indian craftsmanship through a stunning collection of handmade products. Each piece tells a story of skill and tradition.",
         img: "/assets/home-exports/Handicraft-Products.webp",
         link: "/"
     },
@@ -91,25 +91,25 @@ export const testimonialsData = [
     {
         img: "/assets/testimonials/Ethan-Clark.webp",
         name: "Ethan Clark",
-        review: "EXIM Global: Where excellence meets export. A leading Merchant Exporter in India.",
+        review: "Exim Globe: Where excellence meets export. A leading Merchant Exporter in India.",
         country: "Australia"
     },
     {
         img: "/assets/testimonials/Shaikh-Riyazuddin.webp",
         name: "Shaikh Riyazuddin",
-        review: "Our global trade thrived with EXIM Global's expertise. Truly the best Merchant Exporter.",
+        review: "Our global trade thrived with Exim Globe's expertise. Truly the best Merchant Exporter.",
         country: "Dubai"
     },
     {
         img: "/assets/testimonials/Emelia-Sithole.webp",
         name: "Emelia Sithole",
-        review: "The sourcing brilliance of EXIM Global transformed our product line. Merchant Exporter excellence!",
+        review: "The sourcing brilliance of Exim Globe transformed our product line. Merchant Exporter excellence!",
         country: "South Africa"
     },
     {
         img: "/assets/testimonials/Ankita-Shah.webp",
         name: "Ankita Shah",
-        review: "EXIM Global, the epitome of Merchant Exporter in India. Diverse exports, unparalleled service.",
+        review: "Exim Globe, the epitome of Merchant Exporter in India. Diverse exports, unparalleled service.",
         country: "United Kingdom"
     },
 ]
