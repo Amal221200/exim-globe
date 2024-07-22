@@ -40,6 +40,9 @@
 }
 
 @media screen and (max-width: 1050px) {
+  #contact-banner {
+    background-position: right;
+  }
   #contact-section {
     .container {
       flex-direction: column;
@@ -54,9 +57,6 @@
 }
 
 @media screen and (max-width: 750px) {
-  #contact-banner {
-    background-position: right;
-  }
 
   #message {
     .container {
