@@ -84,6 +84,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+      
       <section id="achievements" className="full-section">
         <div className="container">
           <div className="box">
