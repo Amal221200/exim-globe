@@ -1,7 +1,7 @@
 "use client"
 import "./styles.scss";
 import { usePathname } from "next/navigation";
-import { ChevronDown, ChevronDownCircle, ChevronRight, MenuIcon, XIcon } from "lucide-react";
+import { ChevronDown, ChevronRight, MenuIcon, XIcon } from "lucide-react";
 import { Fragment, useState } from "react";
 import { navLinks, productLinks } from "@/lib/constants";
 import Link from "next/link";
@@ -25,9 +25,11 @@ const Header = () => {
     <header>
       <div id="header-top">
         <div id="header-logo">
+          <Link href={'/'}>
           <div className="image">
             <img src="/assets/logo.png" alt="" />
           </div>
+          </Link>
         </div>
 
         <nav id="desktop-nav">
