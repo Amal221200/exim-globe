@@ -2,7 +2,7 @@
 import "./styles.scss";
 import { usePathname } from "next/navigation";
 import { ChevronDown, ChevronRight, MenuIcon, XIcon } from "lucide-react";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { navLinks, productLinks } from "@/lib/constants";
 import Link from "next/link";
 
@@ -26,9 +26,9 @@ const Header = () => {
       <div id="header-top">
         <div id="header-logo">
           <Link href={'/'}>
-          <div className="image">
-            <img src="/assets/logo.png" alt="" />
-          </div>
+            <div className="image">
+              <img src="/assets/logo.png" alt="" />
+            </div>
           </Link>
         </div>
 
@@ -71,10 +71,14 @@ const Header = () => {
         <ul id={`mobile-nav`}>
           {
             navLinks.map(({ link, label }) => (
-              <Fragment key={link}>
-                <li className={`nav-link ${(link === pathname || pathname.includes(link.slice(1) || '_')) ? 'active' : ""}`}>
-                  <Link onClick={onClose} href={link}>{label}</Link> {link === '/products' && <ChevronDown onClick={()=>setSubNavOpen(current => !current)} size={17} style={{ cursor: 'pointer' }} />}
-                </li>
+              <li key={link} className={`nav-link ${(link === pathname || pathname.includes(link.slice(1) || '_')) ? 'active' : ""}`}>
+                <span>
+                  <Link onClick={onClose} href={link}>{label}</Link>
+                  {
+                    link === '/products' &&
+                    <ChevronDown onClick={() => setSubNavOpen(current => !current)} size={17} style={{ cursor: 'pointer' }} />
+                  }
+                </span>
                 <nav className="sub-nav">
                   {
                     (link === '/products' && subNavOpen) && productLinks.map(({ label, link }) => (
@@ -84,7 +88,7 @@ const Header = () => {
                     ))
                   }
                 </nav>
-              </Fragment>
+              </li>
             ))
           }
         </ul>

@@ -181,7 +181,7 @@ header {
     align-items: stretch;
   }
 
-  #mobile-nav .nav-link {
+  #mobile-nav .nav-link span {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -191,13 +191,13 @@ header {
   }
 
   #mobile-nav .nav-link.active,
-  #mobile-nav .nav-link.active a {
-    color: var(--primary-color-light);
+  #mobile-nav .nav-link.active span a {
+    color: var(--primary-color);
   }
 
   #mobile-nav .nav-link svg:hover,
   #mobile-nav .nav-link a:hover {
-    color: var(--primary-color-light);
+    color: var(--primary-color);
   }
 
   #mobile-nav .sub-nav {
@@ -215,10 +215,10 @@ header {
         color: var(--primary-color);
       }
 
-      &.active{
+      &.active {
         color: var(--primary-color);
       }
-      
+
       &:last-of-type {
         border: none;
       }
