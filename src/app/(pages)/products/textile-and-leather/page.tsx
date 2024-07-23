@@ -9,7 +9,7 @@ import Link from "next/link"
 const TextilesAndLeatherPage = () => {
     return (
         <>
-            <main id="textiles-and-leather-banner">
+            <main id="textiles-and-leather-banner" className="product-banner">
                 <div className="content">
                     <h1>Textile & Leather</h1>
                     <p>

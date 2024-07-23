@@ -73,37 +73,37 @@ section.info {
   min-height: 50dvh;
 
   .container {
+    display: flex;
+    gap: 1rem;
+    > div {
+      flex: 1;
+    }
+
+    .left {
+      img {
+        aspect-ratio: 1/1;
+      }
+    }
+
+    .right {
       display: flex;
-      gap: 1rem;
-      > div {
-          flex: 1;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2rem;
+      h2 {
+        font-size: 3.5rem;
       }
 
-      .left {
-          img {
-              aspect-ratio: 1/1;
-          }
+      p {
+        color: #555;
+        font-size: 1.8rem;
+        margin-block: 1.8rem;
       }
 
-      .right {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 2rem;
-          h2 {
-              font-size: 3.5rem;
-          }
-
-          p {
-              color: #555;
-              font-size: 1.8rem;
-              margin-block: 1.8rem;
-          }
-
-          .btn {
-            margin-top: auto;
-          }
+      .btn {
+        margin-top: auto;
       }
+    }
   }
 }
 
@@ -119,7 +119,34 @@ section.full-section {
     margin: auto;
   }
 }
+.product-banner {
+  height: 90dvh;
+  background-color: var(--black-transparent);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 3rem 4rem;
+  color: white;
 
+  .content {
+    max-width: 900px;
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btns {
+      display: flex;
+      gap: 3rem;
+    }
+  }
+}
 .transition {
   transition: all 0.2s ease;
 }
@@ -197,5 +224,13 @@ section.full-section {
 @media screen and (max-width: 640px) {
   html {
     font-size: 50%;
+  }
+
+  main {
+    background-position: center;
+  }
+
+  .product-banner {
+    height: 60dvh;
   }
 }

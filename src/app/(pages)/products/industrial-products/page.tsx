@@ -8,7 +8,7 @@ import Link from "next/link"
 const IndustrialProductPage = () => {
     return (
         <>
-            <main id="industrial-products-banner">
+            <main id="industrial-products-banner" className="product-banner">
                 <div className="content">
                     <h1>Industral Products</h1>
                     <p>Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.</p>

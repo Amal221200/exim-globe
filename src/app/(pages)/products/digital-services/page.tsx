@@ -9,7 +9,7 @@ import Link from "next/link"
 const DigitalServicesPage = () => {
     return (
         <>
-            <main id="digital-services-banner">
+            <main id="digital-services-banner" className="product-banner">
                 <div className="content">
                     <h1>Digital services</h1>
                     <p>

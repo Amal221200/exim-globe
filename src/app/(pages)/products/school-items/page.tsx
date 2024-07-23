@@ -9,7 +9,7 @@ import Link from "next/link"
 const IndustrialProductPage = () => {
     return (
         <>
-            <main id="school-items-banner">
+            <main id="school-items-banner" className="product-banner">
                 <div className="content">
                     <h1>School Items</h1>
                     <p>

@@ -35,7 +35,7 @@ const Header = () => {
         <nav id="desktop-nav">
           {
             navLinks.map(({ link, label }) => (
-              <div key={link} className={`nav-link ${link === pathname ? 'active' : ""}`}>
+              <div key={link} className={`nav-link ${(link === pathname || pathname.includes(link.slice(1) || '_')) ? 'active' : ""}`}>
                 <Link onClick={onClose} href={link}>
                   <span>{label}  {link === '/products' && <ChevronDown size={17} />}</span>
                 </Link>
@@ -72,13 +72,13 @@ const Header = () => {
           {
             navLinks.map(({ link, label }) => (
               <Fragment key={link}>
-                <li className={`nav-link ${link === pathname ? 'active' : ""}`}>
+                <li className={`nav-link ${(link === pathname || pathname.includes(link.slice(1) || '_')) ? 'active' : ""}`}>
                   <Link onClick={onClose} href={link}>{label}</Link> {link === '/products' && <ChevronDown onClick={()=>setSubNavOpen(current => !current)} size={17} style={{ cursor: 'pointer' }} />}
                 </li>
                 <nav className="sub-nav">
                   {
                     (link === '/products' && subNavOpen) && productLinks.map(({ label, link }) => (
-                      <Link href={link} onClick={onClose} key={link} className="sub-nav-link" >
+                      <Link href={link} onClick={onClose} key={link} className={`sub-nav-link ${link === pathname ? 'active' : ""}`} >
                         <ChevronRight size={15} /> {label}
                       </Link>
                     ))
