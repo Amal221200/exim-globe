@@ -44,6 +44,7 @@ const HomePage = () => {
                         </p>
                         <Link href="/contact-us" className="btn btn-dark">WORK WITH US</Link>
                     </div>
+                    
                     <div className="right">
                         <div className="box">
                             <div>
