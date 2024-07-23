@@ -4,19 +4,35 @@ import Memberships from "@/components/membership"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { bedsheetProducts, cottonProducts, jeansProducts, leatherProducts, towelProducts } from "@/lib/data"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+    return {
+        title: 'Textiles & Leather',
+        description: 'Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability.',
+        openGraph: {
+            title: 'Textiles & Leather',
+            description: 'Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability.',
+            ...defaultOpenGraph,
+            url: `${SiteURL}/products/textiles-and-leather`
+        }
+    }
+}
 
 const TextilesAndLeatherPage = () => {
     return (
         <>
             <main id="textiles-and-leather-banner" className="product-banner">
                 <div className="content">
-                    <h1>Textile & Leather</h1>
+                    <h1>Textiles & Leather</h1>
                     <p>
                         Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability.
                     </p>
                     <div className="btns">
-                        <Link href="/about-us" className="btn btn-primary">ABOUT US</Link>
+                        <Link href="#textiles" className="btn btn-primary">KNOW MORE</Link>
                         <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
                     </div>
                 </div>

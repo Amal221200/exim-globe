@@ -4,7 +4,23 @@ import Memberships from "@/components/membership"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { digitalServices } from "@/lib/data"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+    return {
+        title: 'Digital Services',
+        description: 'Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!',
+        openGraph: {
+            title: 'Digital Services',
+            description: 'Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!',
+            ...defaultOpenGraph,
+            url: `${SiteURL}/products/digital-services`
+        }
+    }
+}
 
 const DigitalServicesPage = () => {
     return (
@@ -13,10 +29,10 @@ const DigitalServicesPage = () => {
                 <div className="content">
                     <h1>Digital services</h1>
                     <p>
-                    Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!
+                        Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!
                     </p>
                     <div className="btns">
-                        <Link href="/about-us" className="btn btn-primary">ABOUT US</Link>
+                        <Link href="#digital" className="btn btn-primary">KNOW MORE</Link>
                         <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
                     </div>
                 </div>

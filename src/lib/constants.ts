@@ -7,16 +7,20 @@ export const productLinks = [
     label: "Industrial Products",
   },
   {
-    link: "/products/textile-and-leather",
+    link: "/products/textiles-and-leather",
     label: "Textile & Leather",
   },
   {
-    link: "/products/edible",
+    link: "/products/edibles",
     label: "Edible",
   },
   {
     link: "/products/school-items",
     label: "School Items",
+  },
+  {
+    link: "/products/medicals",
+    label: "Medicals",
   },
   {
     link: "/products/digital-services",

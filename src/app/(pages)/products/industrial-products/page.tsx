@@ -3,7 +3,23 @@ import Memberships from "@/components/membership"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { hdpeDrums, safetyItems } from "@/lib/data"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+    return {
+        title: 'Industrial Products',
+        description: 'Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.',
+        openGraph: {
+            title: 'Industrial Products',
+            description: 'Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.',
+            ...defaultOpenGraph,
+            url: `${SiteURL}/products/industrial-products`
+        }
+    }
+}
 
 const IndustrialProductPage = () => {
     return (
@@ -13,7 +29,7 @@ const IndustrialProductPage = () => {
                     <h1>Industral Products</h1>
                     <p>Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.</p>
                     <div className="btns">
-                        <Link href="#" className="btn btn-primary">KNOW MORE</Link>
+                        <Link href="#hdpe-drums" className="btn btn-primary">KNOW MORE</Link>
                         <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
                     </div>
                 </div>
@@ -38,7 +54,7 @@ const IndustrialProductPage = () => {
 
             <Products data={hdpeDrums} heading="Available Products" />
 
-            <section id="industry-safety-items" className="white info">
+            <section id="safety-items" className="white info">
                 <div className="container">
                     <div className="left">
                         <img src="/assets/industrial-safety-items.jpg" alt="" />

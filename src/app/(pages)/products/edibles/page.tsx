@@ -4,7 +4,23 @@ import Memberships from "@/components/membership"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { fisheryProducts, spicesProducts } from "@/lib/data"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+    return {
+        title: 'Fishery and Spices',
+        description: 'Elevate your cooking with our premium Spices collection. Discover a symphony of flavors as you explore the world of culinary enchantment. Unleash the power of Spice in your kitchen today!',
+        openGraph: {
+            title: 'Fishery and Spices',
+            description: 'Elevate your cooking with our premium Spices collection. Discover a symphony of flavors as you explore the world of culinary enchantment. Unleash the power of Spice in your kitchen today!',
+            ...defaultOpenGraph,
+            url: `${SiteURL}/products/edibles`
+        }
+    }
+}
 
 const IndustrialProductPage = () => {
     return (
@@ -16,7 +32,7 @@ const IndustrialProductPage = () => {
                         Elevate your cooking with our premium Spices collection. Discover a symphony of flavors as you explore the world of culinary enchantment. Unleash the power of Spice in your kitchen today!
                     </p>
                     <div className="btns">
-                        <Link href="/about-us" className="btn btn-primary">ABOUT US</Link>
+                        <Link href="#fishery" className="btn btn-primary">KNOW MORE</Link>
                         <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
                     </div>
                 </div>

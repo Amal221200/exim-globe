@@ -5,11 +5,15 @@ import Testimonials from "@/components/testimonials"
 import Why from "@/components/why"
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
 import Memberships from "@/components/membership"
+import Link from "next/link"
 
 export async function generateMetadata(): Promise<Metadata> {
 
   return {
-    title: 'Our Products',
+    title: {
+      template: "%s - Our Products",
+      default: 'Our Products'
+    },
     description: 'Export quality products, elevate possibilities, redefine excellence – unleashing the pinnacle of quality and innovation.',
     openGraph: {
       title: 'Our Products',
@@ -29,8 +33,8 @@ const ProductsPage = () => {
           <p>Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.</p>
 
           <div className="btns">
-            <a href="" className="btn btn-primary">KNOW MORE</a>
-            <a href="" className="btn btn-secondary">CONTACT US</a>
+            <Link href="#exports" className="btn btn-primary">KNOW MORE</Link>
+            <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
           </div>
         </div>
       </main>

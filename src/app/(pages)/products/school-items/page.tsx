@@ -4,7 +4,23 @@ import Memberships from "@/components/membership"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { schoolItems } from "@/lib/data"
+import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export async function generateMetadata(): Promise<Metadata> {
+
+    return {
+        title: 'School Items',
+        description: 'Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.',
+        openGraph: {
+            title: 'School Items',
+            description: 'Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.',
+            ...defaultOpenGraph,
+            url: `${SiteURL}/products/school-items`
+        }
+    }
+}
 
 const IndustrialProductPage = () => {
     return (
@@ -16,7 +32,7 @@ const IndustrialProductPage = () => {
                         Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.
                     </p>
                     <div className="btns">
-                        <Link href="/about-us" className="btn btn-primary">ABOUT US</Link>
+                        <Link href="#school-items" className="btn btn-primary">KNOW MORE</Link>
                         <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
                     </div>
                 </div>

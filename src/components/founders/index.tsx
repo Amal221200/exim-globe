@@ -1,7 +1,7 @@
 import { foundersData } from "@/lib/data"
 import "./styles.scss"
 
-const Founders = ({ showAbout, headingBackground }: { showAbout?: boolean, headingBackground?: boolean }) => {
+const Founders = ({ headingBackground }: { headingBackground?: boolean }) => {
     return (
         <section id="founders">
             {

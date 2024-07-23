@@ -6,55 +6,55 @@ export const exportsData = [
         description: "EXIM Global offers high-quality HDPE drums and barrels, ideal for the safe storage and transportation of liquids and chemicals. Our products are durable, reliable, and designed to meet international safety standards.",
         img: "/assets/home-exports/HDPE-Drums.png",
         type: "industrial-products",
-        link: "/products/industral-products"
+        link: "/products/industral-products#hdpe-drums"
     },
     {
         title: "School Furniture",
         description: "EXIM Global provides durable and ergonomic school furniture, designed to enhance the learning environment. Our range includes desks, chairs, and storage solutions, all crafted for comfort and functionality.",
         img: "/assets/home-exports/Furnitures.png",
-        link: "/"
+        link: "/products/school-items"
     },
     {
         title: "Medical Items",
         description: "EXIM Global supplies high-quality medical equipment and supplies, ensuring reliability and safety. Our products include Hospitals furnishings and medical bandages. all meeting stringent healthcare standards.",
         img: "/assets/home-exports/Medical Items.png",
-        link: "/"
+        link: "/products/medicals"
     },
     {
         title: "Spice Products",
         description: "Explore a world of flavors with Exim Globe's exquisite range of spices. Our spices are sourced directly from renowned producers, ensuring exceptional quality and authenticity.",
         img: "/assets/home-exports/Spices-Products.webp",
-        link: "/"
+        link: "/products/edibles#spices"
     },
     {
         title: "Fishery and Seafood",
         description: "EXIM Global provides a diverse selection of fishery and seafood products, including fresh fish, shrimp, crabs, and lobsters. Our seafood is sourced from sustainable fisheries, ensuring top quality and taste for global markets.",
         img: "/assets/home-exports/Fishery-and-Seafood.png",
-        link: "/"
+        link: "/products/edibles#fishery"
     },
     {
         title: "Leather Products",
         description: "Exim Global offers a premium selection of leather products, showcasing craftsmanship and durability. Elevate your style with our range of leather goods.",
         img: "/assets/home-exports/Leather-Products.webp",
-        link: "/"
+        link: "/products/textiles-and-leather#leather"
     },
     {
         title: "Textiles",
         description: "EXIM Global supplies high-quality textile products, including fabrics, garments, and home textiles. Our textiles are known for their durability, vibrant colors, and intricate designs, catering to diverse fashion and home décor needs globally.",
         img: "/assets/home-exports/Garment-Products.webp",
-        link: "/"
+        link: "/products/textiles-and-leather#textiles"
     },
     {
         title: "Digital Services",
         description: "EXIM Global provides comprehensive digital services, including web development, digital marketing, and SEO optimization. Our expert team ensures enhanced online presence and growth, tailored to meet the unique needs of businesses worldwide.",
         img: "/assets/home-exports/Digital.png",
-        link: "/"
+        link: "/products/digital-services"
     },
     {
         title: "Industral Safety Items",
         description: "EXIM Global supplies a wide range of industrial safety items, including helmets, gloves, and protective clothing. Our safety products are designed to meet rigorous standards, ensuring maximum protection and safety in various industrial environments.",
         img: "/assets/home-exports/Industrial-Safety.png",
-        link: "/"
+        link: "/products/industrial-products#safety-items"
     },
 ]
 
@@ -409,6 +409,20 @@ export const fisheryProducts = [
     {
         img: "/assets/fishery/lobster.png",
         label: "Fresh Lobsters",
+    },
+]
+export const medicalProducts = [
+    {
+        img: "/assets/medical/syringes.png",
+        label: "Wide Range of Syringes",
+    },
+    {
+        img: "/assets/medical/cotton-roll-crepe-bandages.png",
+        label: "Cotton Roll Crepe Bandages",
+    },
+    {
+        img: "/assets/medical/gauze-bandage-rolls.png",
+        label: "Gauze Bandage Rolls",
     },
 ]
 

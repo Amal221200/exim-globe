@@ -113,7 +113,7 @@ const HomePage = () => {
 
             <Why fullsection />
 
-            <Founders showAbout />
+            <Founders />
 
             <Testimonials />
 
