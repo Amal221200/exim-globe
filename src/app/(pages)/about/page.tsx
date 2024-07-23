@@ -1,11 +1,12 @@
-import { AwardIcon, BuildingIcon, DollarSignIcon, HousePlusIcon, LandmarkIcon, NetworkIcon, UsersIcon } from "lucide-react"
 import "./styles.scss"
+import { AwardIcon, BuildingIcon, DollarSignIcon, HousePlusIcon, LandmarkIcon, NetworkIcon, UsersIcon } from "lucide-react"
 import Founders from "@/components/founders"
 import Why from "@/components/why"
 import ContactForm from "@/components/contact-form"
 import { Metadata } from "next"
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata"
 import Memberships from "@/components/membership"
+import Link from "next/link"
 
 export async function generateMetadata(): Promise<Metadata> {
 
@@ -49,7 +50,7 @@ const AboutPage = () => {
               Choose EXIM Global as your trusted partner in international trade. With every transaction, we demonstrate our dedication to excellence and our commitment to fostering a more connected and prosperous global trade landscape.
             </p>
 
-            <a href="/products" className="btn btn-primary">OUR PRODUCTS</a>
+            <Link href="/products" className="btn btn-primary">OUR PRODUCTS</Link>
           </div>
           <div className="right">
             <h3><span className="icon"><BuildingIcon /></span> Mission</h3>

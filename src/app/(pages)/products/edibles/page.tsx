@@ -1,6 +1,7 @@
 import "./styles.scss"
 
 import Memberships from "@/components/membership"
+import ProductBanner from "@/components/product-banner"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { fisheryProducts, spicesProducts } from "@/lib/data"
@@ -25,18 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const IndustrialProductPage = () => {
     return (
         <>
-            <main id="edible-banner" className="product-banner">
-                <div className="content">
-                    <h1>Fishery & ⁠Spices</h1>
-                    <p>
-                        Elevate your cooking with our premium Spices collection. Discover a symphony of flavors as you explore the world of culinary enchantment. Unleash the power of Spice in your kitchen today!
-                    </p>
-                    <div className="btns">
-                        <Link href="#fishery" className="btn btn-primary">KNOW MORE</Link>
-                        <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
-                    </div>
-                </div>
-            </main>
+            <ProductBanner title="Fishery & ⁠Spices" description="Elevate your cooking with our premium Spices collection. Discover a symphony of flavors as you explore the world of culinary enchantment. Unleash the power of Spice in your kitchen today!" knowMoreUrl="#digital" backgroundImage="/assets/edible-bg-1.webp" />
 
             <Memberships />
 

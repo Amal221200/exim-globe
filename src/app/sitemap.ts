@@ -25,7 +25,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date()
         },
         {
-            url: `${SiteURL}/products/textile-and-leather`,
+            url: `${SiteURL}/products/textiles-and-leather`,
             lastModified: new Date()
         },
         {
@@ -37,7 +37,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date()
         },
         {
-            url: `${SiteURL}/products/edible`,
+            url: `${SiteURL}/products/edibles`,
             lastModified: new Date()
         },
         {

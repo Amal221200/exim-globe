@@ -1,6 +1,6 @@
 import "./styles.scss"
-
 import Memberships from "@/components/membership"
+import ProductBanner from "@/components/product-banner"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { bedsheetProducts, cottonProducts, jeansProducts, leatherProducts, towelProducts } from "@/lib/data"
@@ -25,18 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const TextilesAndLeatherPage = () => {
     return (
         <>
-            <main id="textiles-and-leather-banner" className="product-banner">
-                <div className="content">
-                    <h1>Textiles & Leather</h1>
-                    <p>
-                        Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability.
-                    </p>
-                    <div className="btns">
-                        <Link href="#textiles" className="btn btn-primary">KNOW MORE</Link>
-                        <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
-                    </div>
-                </div>
-            </main>
+          <ProductBanner title="Textiles & Leather" description="Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability." knowMoreUrl="#textiles" backgroundImage="/assets/home-exports/Leather-Products.webp" />
 
             <Memberships />
 

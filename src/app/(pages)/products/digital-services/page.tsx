@@ -1,6 +1,7 @@
 import "./styles.scss"
 
 import Memberships from "@/components/membership"
+import ProductBanner from "@/components/product-banner"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { digitalServices } from "@/lib/data"
@@ -25,18 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const DigitalServicesPage = () => {
     return (
         <>
-            <main id="digital-services-banner" className="product-banner">
-                <div className="content">
-                    <h1>Digital services</h1>
-                    <p>
-                        Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!
-                    </p>
-                    <div className="btns">
-                        <Link href="#digital" className="btn btn-primary">KNOW MORE</Link>
-                        <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
-                    </div>
-                </div>
-            </main>
+            <ProductBanner title="Digital services" description="Elevate your brand with effective software marketing. Our expert-backed tips guide you through the dynamic landscape of digital promotion. Explore the power of marketing to boost visibility, engagement, and conversions. Discover the key to online success with our comprehensive software strategies. Start thriving in the digital realm today!" knowMoreUrl="#digital" backgroundImage="/assets/digital-services-bg.jpg" />
 
             <Memberships />
 

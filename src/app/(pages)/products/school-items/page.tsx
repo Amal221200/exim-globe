@@ -1,6 +1,7 @@
 import "./styles.scss"
 
 import Memberships from "@/components/membership"
+import ProductBanner from "@/components/product-banner"
 import Products from "@/components/products"
 import Why from "@/components/why"
 import { schoolItems } from "@/lib/data"
@@ -25,19 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const IndustrialProductPage = () => {
     return (
         <>
-            <main id="school-items-banner" className="product-banner">
-                <div className="content">
-                    <h1>School Items</h1>
-                    <p>
-                        Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.
-                    </p>
-                    <div className="btns">
-                        <Link href="#school-items" className="btn btn-primary">KNOW MORE</Link>
-                        <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
-                    </div>
-                </div>
-            </main>
-
+            <ProductBanner title="School Items" description="Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation." knowMoreUrl="#school-items" backgroundImage="/assets/school-items-bg-1.png" />
             <Memberships />
 
             <section id="school-items" className="white info">

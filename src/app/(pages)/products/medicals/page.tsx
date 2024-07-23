@@ -5,6 +5,7 @@ import { medicalProducts } from "@/lib/data";
 import { Metadata } from "next";
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata";
 import Link from "next/link";
+import ProductBanner from "@/components/product-banner";
 
 export async function generateMetadata(): Promise<Metadata> {
 
@@ -23,16 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const MedicalPage = () => {
   return (
     <>
-      <main id="medical-banner" className="product-banner">
-        <div className="content">
-          <h1>Medical Products</h1>
-          <p>Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation.</p>
-          <div className="btns">
-            <Link href="#medicals" className="btn btn-primary">KNOW MORE</Link>
-            <Link href="/contact-us" className="btn btn-secondary">CONTACT US</Link>
-          </div>
-        </div>
-      </main >
+      <ProductBanner title={"Medical Products"} description="Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation." knowMoreUrl="#medicals" backgroundImage="/assets/medical-bg.png" />
 
       <Memberships />
       <section id="medicals" className="white info">
