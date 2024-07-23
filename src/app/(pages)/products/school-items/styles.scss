@@ -1,0 +1,29 @@
+#school-items-banner {
+    height: 90dvh;
+    background-image: url('/assets/school-items-bg-1.png');
+    background-color: var(--black-transparent);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 3rem 4rem;
+  color: white;
+
+  .content {
+    max-width: 900px;
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btns {
+      display: flex;
+      gap: 3rem;
+    }
+  }
+}

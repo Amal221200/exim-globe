@@ -188,3 +188,313 @@ export const whyChooseData = [
         text: "Time is of the essence in global trade. With our Sourcing Agent services, clients can rely on on-time delivery, meeting deadlines with precision and avoiding disruptions in their supply chain."
     },
 ]
+
+export const hdpeDrums = [
+    {
+        img: "/assets/industrial-products/square-polycan.png",
+        label: "Square Polycan",
+    },
+    {
+        img: "/assets/industrial-products/open-topcan.png",
+        label: "Open Top Can",
+    },
+    {
+        img: "/assets/industrial-products/jerry-can.png",
+        label: "Jerry Can",
+    },
+    {
+        img: "/assets/industrial-products/wide-mouth-can.png",
+        label: "Wide Mouth Can",
+    },
+    {
+        img: "/assets/industrial-products/rocket-can.png",
+        label: "Rocket Can",
+    },
+    {
+        img: "/assets/industrial-products/barrel-drums.png",
+        label: "Barrel Drum",
+    },
+    {
+        img: "/assets/industrial-products/bottles.png",
+        label: "Bottles",
+    },
+]
+
+export const safetyItems = [
+    {
+        img: "/assets/industrial-products/head-protection.png",
+        label: "Head Protection",
+    },
+    {
+        img: "/assets/industrial-products/hearing-protection.png",
+        label: "Hearing Protection",
+    },
+    {
+        img: "/assets/industrial-products/eye-protection.png",
+        label: "Eye Protection",
+    },
+    {
+        img: "/assets/industrial-products/face-protection.png",
+        label: "Face Protection",
+    },
+    {
+        img: "/assets/industrial-products/respiratory-protection.png",
+        label: "Respiratory Protection",
+    },
+    {
+        img: "/assets/industrial-products/feet-protection.png",
+        label: "Feet Protection",
+    },
+    {
+        img: "/assets/industrial-products/hand-protection.png",
+        label: "Hand Protection",
+    },
+    {
+        img: "/assets/industrial-products/fall-protection.png",
+        label: "Fall Protection",
+    },
+]
+
+export const bedsheetProducts = [
+    {
+        img: "/assets/textile-products/cotton-bedsheets.png",
+        label: "Cotton Blend Bedsheets",
+    },
+    {
+        img: "/assets/textile-products/polyster-bedsheets.png",
+        label: "Polyster Bedsheets",
+    },
+    {
+        img: "/assets/textile-products/egyptian-bedsheets.png",
+        label: "Egyptian Bedsheets",
+    },
+    {
+        img: "/assets/textile-products/linen-bedsheets.png",
+        label: "Linen Bedsheets",
+    }
+]
+
+
+export const towelProducts = [
+    {
+        img: "/assets/textile-products/bath-towel.png",
+        label: "Bath Towels",
+    },
+    {
+        img: "/assets/textile-products/hand-towel.png",
+        label: "Hand Towels",
+    },
+    {
+        img: "/assets/textile-products/finger-towel.png",
+        label: "Finger Towels",
+    },
+    {
+        img: "/assets/textile-products/wash-clothes.png",
+        label: "Wash Clothes",
+    },
+]
+
+export const jeansProducts = [
+    {
+        img: "/assets/textile-products/slim-fit-jeans.png",
+        label: "Slim Fit Jeans",
+    },
+    {
+        img: "/assets/textile-products/boot-cut-jeans.png",
+        label: "Boot Cut Jeans",
+    },
+    {
+        img: "/assets/textile-products/skinny-jeans.png",
+        label: "Skinny Jeans",
+    },
+    {
+        img: "/assets/textile-products/highrise-jeans.png",
+        label: "Highrise Jeans",
+    },
+]
+
+export const cottonProducts = [
+    {
+        img: "/assets/textile-products/shirts.png",
+        label: "Shirts",
+    },
+    {
+        img: "/assets/textile-products/t-shirts.png",
+        label: "T-Shirts",
+    },
+    {
+        img: "/assets/textile-products/trousers.png",
+        label: "Trousers",
+    },
+    {
+        img: "/assets/textile-products/tops.png",
+        label: "Tops",
+    },
+]
+
+export const leatherProducts = [
+    {
+        img: "/assets/leather-products/leather-shoes.png",
+        label: "Leather Shoes",
+    },
+    {
+        img: "/assets/leather-products/leather-sandals.png",
+        label: "Leather Sandals",
+    },
+    {
+        img: "/assets/leather-products/leather-chappals.png",
+        label: "Leather Chappals",
+    },
+    {
+        img: "/assets/leather-products/leather-bags.png",
+        label: "Leather Bags",
+    },
+    {
+        img: "/assets/leather-products/leather-purse.png",
+        label: "Leather Purse",
+    },
+    {
+        img: "/assets/leather-products/leather-wallet.png",
+        label: "Leather Wallet",
+    },
+    {
+        img: "/assets/leather-products/leather-jacket.png",
+        label: "Leather Jacket",
+    },
+    {
+        img: "/assets/leather-products/leather-gloves.png",
+        label: "Leather Gloves",
+    },
+    {
+        img: "/assets/leather-products/leather-belt.png",
+        label: "Leather Belt",
+    },
+]
+
+export const digitalServices = [
+    {
+        img: "/assets/digital-services/web-development.png",
+        label: "Web Development",
+    },
+    {
+        img: "/assets/digital-services/seo.png",
+        label: "SEO Service",
+    },
+    {
+        img: "/assets/digital-services/digital-marketing.png",
+        label: "Digital Marketing",
+    },
+    {
+        img: "/assets/digital-services/bulk-messaging-services.png",
+        label: "Bulk Messaging Service",
+    },
+]
+
+export const schoolItems = [
+    {
+        img: "/assets/school-items/school-benches.png",
+        label: "School Benches",
+    },
+    {
+        img: "/assets/school-items/foldable-table.png",
+        label: "Scissor Multi-Purpose Foldable, Rectangle Plastic Table",
+    }
+]
+
+export const fisheryProducts = [
+    {
+        img: "/assets/fishery/shrimps.png",
+        label: "Fresh Prawns and Shrimps",
+    },
+    {
+        img: "/assets/fishery/lobster.png",
+        label: "Fresh Lobsters",
+    },
+]
+
+export const spicesProducts = [
+    {
+        img: "/assets/spices/supari.png",
+        label: "Betel Nut (Supari)",
+    },
+    {
+        img: "/assets/spices/cumin-seeds.png",
+        label: "Cumin Seeds",
+    },
+    {
+        img: "/assets/spices/corriander-seeds.png",
+        label: "Corriander Seeds",
+    },
+    {
+        img: "/assets/spices/fennel-seeds.png",
+        label: "Fennel Seeds",
+    },
+    {
+        img: "/assets/spices/fenugreek-seeds.png",
+        label: "Fenugreek Seeds",
+    },
+    {
+        img: "/assets/spices/mustard-seeds.png",
+        label: "Mustard Seeds",
+    },
+    {
+        img: "/assets/spices/red-chilli.png",
+        label: "Red Chilli",
+    },
+    {
+        img: "/assets/spices/psyllium-seeds.png",
+        label: "Psyllium Seeds",
+    },
+    {
+        img: "/assets/spices/turmeric.png",
+        label: "Turmeric",
+    },
+    {
+        img: "/assets/spices/red-chilli-powder.png",
+        label: "Red Chilli",
+    },
+    {
+        img: "/assets/spices/turmeric-powder.png",
+        label: "Turmeric Powder",
+    },
+    {
+        img: "/assets/spices/black-pepper-powder.png",
+        label: "Black Pepper Powder",
+    },
+    {
+        img: "/assets/spices/corriander-seeds-powder.png",
+        label: "Corriander Seeds Powder",
+    },
+    {
+        img: "/assets/spices/garlic-powder.png",
+        label: "Garlic Powder",
+    },
+    {
+        img: "/assets/spices/dry-mango-powder.png",
+        label: "Dry Mango Powder",
+    },
+    {
+        img: "/assets/spices/garam-masala.png",
+        label: "Garam Masala",
+    },
+    {
+        img: "/assets/spices/white-pepper-powder.png",
+        label: "White Pepper Powder",
+    },
+    {
+        img: "/assets/spices/nutmeg-powder.png",
+        label: "Nutmeg Powder",
+    },
+    {
+        img: "/assets/spices/dry-ginger-powder.png",
+        label: "Dry Ginger Powder",
+    },
+    {
+        img: "/assets/spices/clove-powder.png",
+        label: "Clove Powder",
+    },
+    {
+        img: "/assets/spices/dry-onion-powder.png",
+        label: "Dry Onion Powder",
+    },
+]

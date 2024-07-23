@@ -1,0 +1,45 @@
+.products {
+  min-height: 30dvh;
+  h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    gap: 1rem;
+
+    .item {
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 1rem;
+      cursor: pointer;
+      
+      div {
+        overflow: hidden;
+        img {
+          transition: transform 0.3s ease;
+        }
+      }
+      
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+      h6 {
+        font-size: 1.8rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .products {
+      .container {
+        justify-content: center;
+      }
+    }
+}
