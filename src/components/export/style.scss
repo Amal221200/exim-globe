@@ -10,10 +10,6 @@
   transition: box-shadow 0.4s ease;
 }
 
-.export-box:hover {
-  box-shadow: 10px 10px 17px -5px rgba(0, 0, 0, 0.75);
-}
-
 .export-box .content {
   margin-bottom: auto;
 }
@@ -34,8 +30,8 @@
 }
 
 
-@media screen and (max-width: 640px) {
-    .export-box {
-      pointer-events: none;
-    }
+@media screen and (min-width: 640px) {
+  .export-box:hover {
+    box-shadow: 10px 10px 17px -5px rgba(0, 0, 0, 0.75);
+  }
 }
