@@ -1,10 +1,10 @@
-import { Link } from "lucide-react";
 import "./styles.scss";
 import Memberships from "@/components/membership";
 import Products from "@/components/products";
 import { medicalProducts } from "@/lib/data";
 import { Metadata } from "next";
 import { defaultOpenGraph, SiteURL } from "@/lib/metadata";
+import Link from "next/link";
 
 export async function generateMetadata(): Promise<Metadata> {
 
