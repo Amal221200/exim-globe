@@ -29,7 +29,7 @@ const SourcingAgentPage = () => {
           <p>
             At every step, our focus remains on efficiency, cost-effectiveness, and client satisfaction. Trust us as your sourcing partner, committed to delivering exceptional service and meeting your sourcing needs with precision.
           </p>
-          <Link href="#work-with-us" className="btn btn-white">WORK WITH US</Link>
+          <Link href="#contact-us" className="btn btn-white">WORK WITH US</Link>
         </div>
       </main>
 
@@ -69,7 +69,7 @@ const SourcingAgentPage = () => {
               }
             </div>
             <p>Partnering with us means more than just sourcing; it’s about empowering your business with efficiency, reliability, and a commitment to delivering exceptional value.</p>
-            <Link href="/contact-us" className="btn btn-primary">
+            <Link href="#contact-us" className="btn btn-primary">
               CONTACT US
             </Link>
           </div>
