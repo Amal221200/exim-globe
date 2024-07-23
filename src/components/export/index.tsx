@@ -1,4 +1,6 @@
+import Link from "next/link"
 import "./style.scss"
+
 const Export = ({ exportData }: { exportData: { img: string, link: string, title: string, description: string } }) => {
     return (
         <div className="export-box">
@@ -10,7 +12,7 @@ const Export = ({ exportData }: { exportData: { img: string, link: string, title
                 <p>{exportData.description}</p>
             </div>
 
-            <a href={exportData.link} className="btn btn-primary">KNOW MORE</a>
+            <Link href={exportData.link} prefetch className="btn btn-primary">KNOW MORE</Link>
         </div>
     )
 }

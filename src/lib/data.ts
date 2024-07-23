@@ -6,7 +6,7 @@ export const exportsData = [
         description: "EXIM Global offers high-quality HDPE drums and barrels, ideal for the safe storage and transportation of liquids and chemicals. Our products are durable, reliable, and designed to meet international safety standards.",
         img: "/assets/home-exports/HDPE-Drums.png",
         type: "industrial-products",
-        link: "/products/industral-products#hdpe-drums"
+        link: "/products/industrial-products#hdpe-drums"
     },
     {
         title: "School Furniture",
