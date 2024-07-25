@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-content">
           <h6>EXIM Global</h6>
           <p>
-            Expand your reach, and elevate your brand. We're your global xport experts.
+            Expand your reach, and elevate your brand. We're your global export experts.
           </p>
 
           <p>
