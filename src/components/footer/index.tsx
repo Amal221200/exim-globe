@@ -23,10 +23,10 @@ const Footer = () => {
           <h6>Our Services</h6>
           <nav>
             <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
             <Link href="/products">Products</Link>
             <Link href="/sourcing-agent">Sourcing Agent</Link>
             <Link href="/contact-us">Contact Us</Link>
-            <Link href="/marketing">Marketing</Link>
           </nav>
         </div>
 
