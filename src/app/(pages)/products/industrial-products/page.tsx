@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const IndustrialProductPage = () => {
     return (
         <>
-            <ProductBanner title="Industral Products" description="Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation." knowMoreUrl="#hdpe-drums" backgroundImage="/assets/home-exports/HDPE-Drums.png" />
+            <ProductBanner title="Industral Products" description="Elevate Possibilities, Redefine Excellence – Unleashing the Pinnacle of Quality and Innovation." knowMoreUrl="#hdpe-drums" backgroundImage="/assets/industrial-products-bg.png" />
             
             <Memberships />
 

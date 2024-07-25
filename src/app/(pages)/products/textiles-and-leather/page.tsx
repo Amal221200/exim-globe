@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const TextilesAndLeatherPage = () => {
     return (
         <>
-          <ProductBanner title="Textiles & Leather" description="Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability." knowMoreUrl="#textiles" backgroundImage="/assets/home-exports/Leather-Products.webp" />
+          <ProductBanner title="Textiles & Leather" description="Discover the latest in vogue with our exclusive line of Garments. From timeless classics to avant-garde designs, our collection promises to redefine your wardrobe. Explore the epitome of style and comfort. & Explore our exquisite range of leather products, where sophistication meets endurance. Discover timeless elegance with our handcrafted leather goods that promise unmatched durability." knowMoreUrl="#textiles" backgroundImage="/assets/textiles-and-leather-bg.webp" />
 
             <Memberships />
 
